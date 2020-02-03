@@ -1,0 +1,78 @@
+CEC CS 18 c39
+Muhammad Jalal
+
+--------------------------------
+#1: Linux Commands
+---------------------------------
+mkdir ceccs18c39
+cd ceccs18c39
+mkdir cs232
+cd cs232
+script work.txt
+man ls
+man alias
+man ls
+ls
+man cd
+man cp
+man cat
+man sort
+cat > abc.txt
+sor -n abc.txt
+sort -n abc.txt
+cut "apple" abc.txt
+cat > a.txt
+paste a.txt abc.txt
+grep cat abc.txt
+sort a.txt
+sort abc.txt
+join abc.txt a.txt
+ifconfig -a
+route
+route -n
+ls -l
+ls -lt
+ls -ltr
+ls ab* -d
+alias
+ln -s
+uname
+uname -a
+history
+exit
+
+
+---------------------------------
+cat > abc.txt
+apple
+diode
+cat
+alfa
+
+sort -n abc.txt
+alfa
+apple
+cat
+diode
+
+a.txt
+phone 
+laptop
+pc
+
+paste a.txt abc.txt
+phone	apple
+laptop	diode
+pc	cat
+	alfa
+
+grep cat abc.txt
+cat
+
+sort a.txt
+laptop
+pc
+phone
+
+-------------------
+Remarks if any:
