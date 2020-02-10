@@ -1,0 +1,85 @@
+CEC CS 18 c39
+Muhammad Jalal
+
+--------------------------------
+#1: Networking Tasks (t3)
+---------------------------------
+Command/Shell script/Program name
+
+ifconfig -a
+route -n 
+route add default gw 192.168.0.2
+ping 192.168.0.1
+cat /etc/resolv.conf
+echo "nameserver 1.1.1.1" >> resolv.conf
+
+--------------------------------
+Output: 
+
+ifconfig -a displays all available network interfaces
+
+route -n displays kernal routing table
+
+route add default gw 192.168.0.2  to add a new route to the table in this case a default gateway
+
+echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+to add 1.1.1.1 (1.1.1.1 is the DNS of Cloudflare) to system domain resolver configuration
+
+-------------------
+Remarks if any:
+
+
+
+--------------------------------
+#2: Ftp Usage (t5)
+---------------------------------
+
+Command/Shell script/Program name
+
+sftp cs18c39@192.168.0.30
+put ex.txt
+get ex.txt
+rm ex.txt
+exit
+
+--------------------------------
+Output: 
+
+sftp cs18c39@192.168.0.30, connect to host 192.168.0.30 via sftp
+
+put ex.txt, upload ex.txt
+
+get ex.txt, copy ex.txt from host to local system
+
+exit, exit from current sftp session
+
+-------------------
+Remarks if any:
+
+
+--------------------------------
+#3: Further Networking tasks (t4)
+---------------------------------
+
+Command/Shell script/Program name
+
+ssh cs18c39@192.168.0.30
+rsync -av 0302/ backup/
+scp ex.txt backup
+
+--------------------------------
+Output: 
+
+ssh cs18c39@192.168.0.30, is used to open a secured connection to remote device
+	
+rsync -av 0302/ backup/, is used to sync the files across 0302/ and backup/ 
+	
+scp ex.txt backup, this is used to upload ex.txt to backup/ in the host 192.168.0.30
+
+-------------------
+Remarks if any:
+
+
+
+
+
