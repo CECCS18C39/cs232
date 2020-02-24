@@ -1,0 +1,38 @@
+CEC CS 18 C39
+Muhammad Jalal
+
+LAN: 192.168.0.120
+MAC: 00:19:db:31:c1:91
+--------------------------------
+#1: Scripting tast (t2)
+---------------------------------
+Command/Shell script/Program name
+
+/sX/script.sh
+---------------------------------
+
+Input: (If relevant)
+---------------
+	# result downloaded from ktu site
+		/sX/result_CHN.pdf
+
+	# student details file containing roll number 
+		/sX/students.txt
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+	# file with cgpa/count of subjects student failed in 
+		/sX/cgpa.txt
+
+
+-------------------
+Remarks if any:
+
+X in 'sX' is replaced with 1 or 2 for corresponding semester
+	eg: /s1/script.sh
+
+
+Results of s1 & s2 are seperated into 2 sub directories named s1 & s2 respectively.
+
+

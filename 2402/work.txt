@@ -1,0 +1,535 @@
+Script started on Monday 24 February 2020 09:18:44 AM IST
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ pdftotxt s1.pdf s1.tc[Kxt
+No command 'pdftotxt' found, did you mean:
+ Command 'pdftotext' from package 'poppler-utils' (main)
+pdftotxt: command not found
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ pdftotxt -layot [1@u[C[C s 1 . t [1P p d f [C s 1 . t x r [1P t 
+No command 'pdftotxt' found, did you mean:
+ Command 'pdftotext' from package 'poppler-utils' (main)
+pdftotxt: command not found
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ pdftotxt -layout s1.pdf s1.txt [1@e
+Error: Couldn't open file 's1.pdf': No such file or directory.
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ pdftotext -layout s1.pdf s1.txt 
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ cat [K[K[K[Kpdftotext -layout s1.pdf s1.txt [C[1P[1@2[1P[1@2
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ grep "CHN18CS" S1.TXT[K[K[K[K[K[Ks1.tc[Kxt > s1cs.txt
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ cat s1cs.txt
+CHN18CS001   MA101(B+), PH100(A), BE110(B), BE10105(F), BE103(C), EE100(B), PH110(A), EE110(B+),
+CHN18CS002   MA101(C), PH100(F), BE110(F), BE10105(F), BE103(C), EE100(F), PH110(A+), EE110(B+),
+CHN18CS003   MA101(A+), PH100(A+), BE110(O), BE10105(O), BE103(A), EE100(O), PH110(A+), EE110(A),
+CHN18CS004   MA101(B+), PH100(A), BE110(O), BE10105(O), BE103(B), EE100(A+), PH110(A+), EE110(A),
+CHN18CS005   MA101(C), PH100(C), BE110(O), BE10105(B), BE103(B+), EE100(B+), PH110(A+), EE110(A),
+CHN18CS006   MA101(F), PH100(C), BE110(B), BE10105(F), BE103(C), EE100(F), PH110(B), EE110(B+),
+CHN18CS007   MA101(B+), PH100(B), BE110(O), BE10105(A+), BE103(B), EE100(B+), PH110(A+), EE110(A+),
+CHN18CS008   MA101(B), PH100(C), BE110(B+), BE10105(A+), BE103(B), EE100(B), PH110(A+), EE110(A),
+CHN18CS009   MA101(A+), PH100(O), BE110(A+), BE10105(B), BE103(A), EE100(A+), PH110(A), EE110(B+),
+CHN18CS010   MA101(O), PH100(A+), BE110(O), BE10105(A), BE103(B+), EE100(A+), PH110(A), EE110(A),
+CHN18CS011   MA101(F), PH100(B), BE110(B), BE10105(C), BE103(B+), EE100(B), PH110(A+), EE110(A),
+CHN18CS012   MA101(B), PH100(B+), BE110(A+), BE10105(C), BE103(B+), EE100(B+), PH110(A+),
+CHN18CS013   MA101(F), PH100(P), BE110(A), BE10105(F), BE103(B), EE100(B), PH110(A+), EE110(A+),
+CHN18CS014   MA101(F), PH100(F), BE110(B), BE10105(B), BE103(C), EE100(F), PH110(A), EE110(B+),
+CHN18CS015   MA101(F), PH100(F), BE110(B+), BE10105(F), BE103(B), EE100(F), PH110(A), EE110(A),
+CHN18CS016   MA101(B+), PH100(O), BE110(O), BE10105(B), BE103(B), EE100(A), PH110(A+), EE110(A+),
+CHN18CS017   MA101(B+), PH100(B+), BE110(A+), BE10105(A+), BE103(B+), EE100(B+), PH110(O),
+CHN18CS018   MA101(O), PH100(O), BE110(O), BE10105(O), BE103(B+), EE100(A+), PH110(A+), EE110(B+),
+CHN18CS019   MA101(F), PH100(B+), BE110(B), BE10105(C), BE103(C), EE100(B), PH110(A), EE110(O),
+CHN18CS020   MA101(A), PH100(A+), BE110(O), BE10105(B+), BE103(B+), EE100(O), PH110(O), EE110(A),
+CHN18CS021   MA101(B), PH100(A+), BE110(O), BE10105(B+), BE103(A), EE100(B+), PH110(A+), EE110(A),
+CHN18CS022   MA101(F), PH100(F), BE110(B), BE10105(B+), BE103(C), EE100(F), PH110(A+), EE110(B+),
+CHN18CS023   MA101(C), PH100(B), BE110(A+), BE10105(A+), BE103(B), EE100(C), PH110(A+), EE110(B+),
+CHN18CS024   MA101(F), PH100(C), BE110(A), BE10105(F), BE103(B), EE100(F), PH110(A+), EE110(B+),
+CHN18CS025   MA101(B), PH100(B+), BE110(A+), BE10105(B), BE103(A), EE100(B), PH110(B+), EE110(A),
+CHN18CS026   MA101(O), PH100(B+), BE110(B+), BE10105(B+), BE103(B), EE100(A+), PH110(O), EE110(B+),
+CHN18CS027   MA101(F), PH100(F), BE110(B+), BE10105(F), BE103(C), EE100(C), PH110(O), EE110(A),
+CHN18CS028   MA101(C), PH100(F), BE110(A+), BE10105(C), BE103(F), EE100(C), PH110(O), EE110(A),
+CHN18CS029   MA101(A+), PH100(A+), BE110(O), BE10105(B+), BE103(A+), EE100(O), PH110(A+), EE110(A),
+CHN18CS030   MA101(B+), PH100(B), BE110(O), BE10105(C), BE103(B), EE100(B+), PH110(A), EE110(A),
+CHN18CS031   MA101(F), PH100(C), BE110(O), BE10105(C), BE103(C), EE100(F), PH110(A+), EE110(B+),
+CHN18CS032   MA101(B), PH100(A), BE110(B+), BE10105(B), BE103(B), EE100(B+), PH110(A), EE110(B+),
+CHN18CS033   MA101(O), PH100(O), BE110(O), BE10105(B+), BE103(B+), EE100(O), PH110(A+), EE110(A),
+CHN18CS034   MA101(F), PH100(C), BE110(B+), BE10105(F), BE103(B+), EE100(B), PH110(A+), EE110(B+),
+CHN18CS035   MA101(O), PH100(A), BE110(O), BE10105(B+), BE103(B+), EE100(O), PH110(O), EE110(B+),
+CHN18CS036   MA101(B), PH100(A+), BE110(B+), BE10105(B+), BE103(A), EE100(O), PH110(A+), EE110(A),
+CHN18CS037   MA101(A+), PH100(B+), BE110(O), BE10105(C), BE103(B), EE100(A), PH110(A+), EE110(A),
+CHN18CS038   MA101(B+), PH100(A+), BE110(B+), BE10105(B), BE103(A), EE100(A+), PH110(A+), EE110(A),
+CHN18CS039   MA101(A), PH100(B), BE110(O), BE10105(C), BE103(B), EE100(B+), PH110(A+), EE110(B+),
+CHN18CS040   MA101(F), PH100(F), BE110(B+), BE10105(C), BE103(C), EE100(F), PH110(A+), EE110(B+),
+CHN18CS041   MA101(F), PH100(F), BE110(B), BE10105(F), BE103(B), EE100(F), PH110(A+), EE110(B+),
+CHN18CS042   MA101(C), PH100(B), BE110(A), BE10105(B), BE103(B+), EE100(B+), PH110(A+), EE110(A),
+CHN18CS043   MA101(B+), PH100(B), BE110(B+), BE10105(B), BE103(B), EE100(B+), PH110(A+), EE110(A),
+CHN18CS044   MA101(P), PH100(C), BE110(F), BE10105(C), BE103(C), EE100(C), PH110(A), EE110(B+),
+CHN18CS045   MA101(F), PH100(B+), BE110(A+), BE10105(B), BE103(B), EE100(B+), PH110(A), EE110(A+),
+CHN18CS046   MA101(F), PH100(C), BE110(O), BE10105(F), BE103(B), EE100(C), PH110(O), EE110(B+),
+CHN18CS047   MA101(C), PH100(C), BE110(A+), BE10105(F), BE103(C), EE100(B), PH110(A), EE110(B+),
+CHN18CS048   MA101(F), PH100(F), BE110(A+), BE10105(F), BE103(B), EE100(F), PH110(A+), EE110(B+),
+CHN18CS049   MA101(A), PH100(A+), BE110(O), BE10105(B+), BE103(B), EE100(B+), PH110(A), EE110(B+),
+CHN18CS050   MA101(F), PH100(P), BE110(C), BE10105(F), BE103(C), EE100(F), PH110(A), EE110(B+),
+CHN18CS051   MA101(F), PH100(B+), BE110(B+), BE10105(F), BE103(A), EE100(B), PH110(A+), EE110(B+),
+CHN18CS052   MA101(F), PH100(F), BE110(B), BE10105(F), BE103(F), EE100(F), PH110(B+), EE110(B+),
+CHN18CS053   MA101(B), PH100(B), BE110(O), BE10105(C), BE103(B), EE100(B), PH110(A+), EE110(A),
+CHN18CS054   MA101(A+), PH100(A+), BE110(A+), BE10105(B), BE103(A), EE100(O), PH110(A+), EE110(A+),
+CHN18CS055   MA101(B+), PH100(B+), BE110(A), BE10105(F), BE103(B+), EE100(B+), PH110(A+), EE110(B+),
+CHN18CS056   MA101(B), PH100(A), BE110(O), BE10105(C), BE103(B+), EE100(A+), PH110(A+), EE110(B+),
+CHN18CS057   MA101(B), PH100(B+), BE110(A), BE10105(C), BE103(B+), EE100(B), PH110(O), EE110(B+),
+CHN18CS058   MA101(A+), PH100(A), BE110(A+), BE10105(C), BE103(B+), EE100(O), PH110(A), EE110(A),
+CHN18CS059   MA101(A), PH100(A+), BE110(O), BE10105(A), BE103(A), EE100(O), PH110(O), EE110(O),
+CHN18CS060   MA101(C), PH100(F), BE110(A+), BE10105(B), BE103(B), EE100(C), PH110(A), EE110(B+),
+CHN18CS061   MA101(F), PH100(C), BE110(A), BE10105(A), BE103(B), EE100(F), PH110(A+), EE110(B+),
+CHN18CS062   MA101(O), PH100(A+), BE110(O), BE10105(B), BE103(B), EE100(O), PH110(A+), EE110(A),
+CHN18CS063   MA101(A+), PH100(A), BE110(A+), BE10105(B), BE103(B), EE100(A), PH110(A+), EE110(B+),
+CHN18CS064   MA101(F), PH100(B), BE110(A+), BE10105(C), BE103(C), EE100(B), PH110(B+), EE110(B+),
+CHN18CS065   MA101(F), PH100(F), BE110(B), BE10105(F), BE103(B), EE100(Absent), PH110(A+), EE110(A),
+CHN18CS066   MA101(F), PH100(C), BE110(A), BE10105(F), BE103(B), EE100(C), PH110(A+), EE110(B+),
+CHN18CS067   MA101(F), PH100(B), BE110(B+), BE10105(C), BE103(B+), EE100(B), PH110(A+), EE110(A),
+CHN18CS068   MA101(B), PH100(B), BE110(O), BE10105(C), BE103(B), EE100(B), PH110(A), EE110(B+),
+CHN18CS069   MA101(B), PH100(B+), BE110(A+), BE10105(C), BE103(B), EE100(A+), PH110(A+), EE110(A+),
+CHN18CS070   MA101(F), PH100(B), BE110(B), BE10105(C), BE103(B), EE100(C), PH110(A), EE110(A),
+CHN18CS071   MA101(F), PH100(C), BE110(B), BE10105(F), BE103(F), EE100(B), PH110(A+), EE110(B+),
+CHN18CS072   MA101(B+), PH100(B+), BE110(A+), BE10105(A+), BE103(B+), EE100(A+), PH110(A+),
+CHN18CS073   MA101(B+), PH100(A+), BE110(A), BE10105(B+), BE103(A), EE100(O), PH110(A), EE110(A+),
+CHN18CS074   MA101(C), PH100(F), BE110(B+), BE10105(F), BE103(B+), EE100(F), PH110(A+), EE110(B+),
+CHN18CS075   MA101(B), PH100(B), BE110(O), BE10105(B+), BE103(B), EE100(A), PH110(B+), EE110(B),
+CHN18CS076   MA101(C), PH100(F), BE110(B+), BE10105(B), BE103(B), EE100(C), PH110(A), EE110(B+),
+CHN18CS077   MA101(O), PH100(O), BE110(O), BE10105(B+), BE103(A), EE100(A), PH110(A), EE110(B+),
+CHN18CS078   MA101(F), PH100(B), BE110(A+), BE10105(B+), BE103(B+), EE100(B), PH110(A), EE110(B+),
+CHN18CS079   MA101(B+), PH100(B), BE110(A), BE10105(B), BE103(B), EE100(B), PH110(A), EE110(B+),
+CHN18CS080   MA101(O), PH100(O), BE110(O), BE10105(B+), BE103(A+), EE100(A), PH110(O), EE110(A),
+CHN18CS081   MA101(B+), PH100(C), BE110(F), BE10105(F), BE103(C), EE100(C), PH110(A), EE110(B),
+CHN18CS082   MA101(B), PH100(C), BE110(O), BE10105(A), BE103(B), EE100(C), PH110(A), EE110(B+),
+CHN18CS083   MA101(F), PH100(F), BE110(F), BE10105(F), BE103(A), EE100(B), PH110(A+), EE110(A),
+CHN18CS084   MA101(B), PH100(B), BE110(A), BE10105(B), BE103(B), EE100(C), PH110(A+), EE110(A),
+CHN18CS085   MA101(F), PH100(F), BE110(B+), BE10105(B+), BE103(C), EE100(F), PH110(O), EE110(A+),
+CHN18CS086   MA101(F), PH100(C), BE110(B), BE10105(B), BE103(B), EE100(B), PH110(A), EE110(B+),
+CHN18CS087   MA101(O), PH100(O), BE110(O), BE10105(A+), BE103(A), EE100(O), PH110(A+), EE110(A+),
+CHN18CS088   MA101(C), PH100(B), BE110(B+), BE10105(F), BE103(B), EE100(B), PH110(A+), EE110(A),
+CHN18CS089   MA101(C), PH100(B), BE110(B+), BE10105(F), BE103(B), EE100(B), PH110(A+), EE110(A),
+CHN18CS090   MA101(F), PH100(F), BE110(F), BE10105(F), BE103(B), EE100(F), PH110(B+), EE110(A),
+CHN18CS091   MA101(O), PH100(O), BE110(A+), BE10105(C), BE103(O), EE100(A), PH110(A+), EE110(A+),
+CHN18CS092   MA101(A), PH100(A+), BE110(A+), BE10105(B+), BE103(B+), EE100(A), PH110(O), EE110(A),
+CHN18CS093   MA101(O), PH100(O), BE110(O), BE10105(A+), BE103(A+), EE100(O), PH110(O), EE110(A),
+CHN18CS094   MA101(C), PH100(B), BE110(B), BE10105(F), BE103(C), EE100(C), PH110(O), EE110(A),
+CHN18CS095   MA101(A+), PH100(A), BE110(A+), BE10105(A+), BE103(A+), EE100(O), PH110(A+), EE110(A),
+CHN18CS096   MA101(B), PH100(B), BE110(B+), BE10105(B), BE103(B+), EE100(B+), PH110(A+), EE110(B+),
+CHN18CS097   MA101(B), PH100(B), BE110(A+), BE10105(C), BE103(B), EE100(B+), PH110(O), EE110(A),
+CHN18CS098   MA101(F), PH100(F), BE110(A), BE10105(C), BE103(B), EE100(F), PH110(A), EE110(B),
+CHN18CS099   MA101(A+), PH100(A+), BE110(A+), BE10105(B+), BE103(A), EE100(O), PH110(A+),
+CHN18CS100   MA101(B+), PH100(B+), BE110(O), BE10105(A), BE103(A+), EE100(A), PH110(A+), EE110(A),
+CHN18CS101   MA101(C), PH100(B), BE110(A), BE10105(B), BE103(B+), EE100(B+), PH110(A), EE110(A),
+CHN18CS102   MA101(B), PH100(A+), BE110(A+), BE10105(C), BE103(A), EE100(O), PH110(A), EE110(A),
+CHN18CS103   MA101(A+), PH100(A+), BE110(O), BE10105(B+), BE103(B+), EE100(A+), PH110(O),
+CHN18CS104   MA101(A), PH100(B+), BE110(O), BE10105(O), BE103(A), EE100(O), PH110(A+), EE110(B+),
+CHN18CS105   MA101(B), PH100(B+), BE110(O), BE10105(B), BE103(B+), EE100(B+), PH110(A+), EE110(A+),
+CHN18CS106   MA101(C), PH100(C), BE110(B), BE10105(C), BE103(C), EE100(B), PH110(A), EE110(B+),
+CHN18CS107   MA101(C), PH100(C), BE110(O), BE10105(F), BE103(B), EE100(A), PH110(A+), EE110(B),
+CHN18CS108   MA101(F), PH100(F), BE110(B+), BE10105(F), BE103(B), EE100(B), PH110(A), EE110(B+),
+CHN18CS109   MA101(F), PH100(B), BE110(A), BE10105(F), BE103(B), EE100(P), PH110(A+), EE110(B+),
+CHN18CS110   MA101(C), PH100(C), BE110(B+), BE10105(F), BE103(B), EE100(C), PH110(B), EE110(B+),
+CHN18CS111   MA101(B+), PH100(B+), BE110(B+), BE10105(B+), BE103(B+), EE100(B+), PH110(A+),
+CHN18CS112   MA101(A), PH100(B+), BE110(B+), BE10105(C), BE103(B), EE100(B), PH110(A), EE110(A+),
+CHN18CS113   MA101(B+), PH100(A), BE110(O), BE10105(B), BE103(B), EE100(A), PH110(A+), EE110(A),
+CHN18CS114   MA101(C), PH100(A), BE110(A+), BE10105(F), BE103(B+), EE100(B+), PH110(A+), EE110(A+),
+CHN18CS115   MA101(A+), PH100(A), BE110(O), BE10105(C), BE103(B+), EE100(O), PH110(A), EE110(A),
+CHN18CS116   MA101(B+), PH100(B+), BE110(O), BE10105(C), BE103(B+), EE100(B+), PH110(O), EE110(B+),
+CHN18CS117   MA101(F), PH100(F), BE110(F), BE10105(F), BE103(C), EE100(F), PH110(B), EE110(B),
+CHN18CS118   MA101(C), PH100(B), BE110(O), BE10105(B+), BE103(B+), EE100(B), PH110(A), EE110(B+),
+CHN18CS119   MA101(F), PH100(F), BE110(F), BE10105(F), BE103(C), EE100(F), PH110(A), EE110(B),
+CHN18CS120   MA101(C), PH100(C), BE110(B), BE10105(C), BE103(C), EE100(C), PH110(A), EE110(A),
+CHN18CS121   MA101(B), PH100(A), BE110(A), BE10105(B), BE103(B+), EE100(B), PH110(O), EE110(B+),
+CHN18CS122   MA101(B+), PH100(A), BE110(O), BE10105(B), BE103(B+), EE100(B), PH110(O), EE110(A),
+CHN18CS123   MA101(O), PH100(B+), BE110(O), BE10105(A+), BE103(C), EE100(B), PH110(O), EE110(A+),
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ gedit code.p
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ gedit code.py
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ pu[Kytho code.py{[K[k [K[KK 'homw[K[Ke/me/[C[Cceccs18c39/cs232/[C/home/ceccs18c39/cs232/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'/home/ceccs18c39/cs232/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2402/res_s1.txt"[K'
+No command 'pytho' found, did you mean:
+ Command 'python' from package 'python-minimal' (main)
+pytho: command not found
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ pytho code.py[K'/home/ceccs18c39/cs232/2402/res_s1.txt'[C[Cn code.py[K'/home/ceccs18c39/cs232/2402/res_s1.txt'
+python: can't open file 'code.py[K/home/ceccs18c39/cs232/2402/res_s1.txt': [Errno 2] No such file or directory
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ python code.py[K'/home/ceccs18c39/cs232/2402/res_s1.txt'[1Ps1.txt'[1P1.txt'[1Ps1.txt'[1Ps1.txt'
+python: can't open file 'code.py[K/home/ceccs18c39/cs232/2402/s1.txt': [Errno 2] No such file or directory
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ python code.py[K'/home/ceccs18c39/cs232/2402/s1.txt'res_s1.txt'[1P code.py[K'/home/ceccs18c39/cs232/2402/res_s1.txt'[C[C/ceccs18c39/cs232/2402/res_s1.txt's/ceccs18c39/cs232/2402/res_s1.txt'4/ceccs18c39/cs232/2402/res_s1.txt'c/ceccs18c39/cs232/2402/res_s1.txt'2/ceccs18c39/cs232/2402/res_s1.txt'
+No command 'pytho' found, did you mean:
+ Command 'python' from package 'python-minimal' (main)
+pytho: command not found
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ pytho code.py[K'/home/s4c2/ceccs18c39/cs232/2402/res_s1.txt'[8Pn code.py[K'/home/ceccs18c39/cs232/2402/s1.txt' code.py[K'/home/s4c2/ceccs18c39/cs232/2402/res_s1.txt'[Cn code.py[K'/home/s4c2/ceccs18c39/cs232/2402/res_s1.txt'
+python: can't open file 'code.py[K/home/s4c2/ceccs18c39/cs232/2402/res_s1.txt': [Errno 2] No such file or directory
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ python code.py[K'/home/s4c2/ceccs18c39/cs232/2402/res_s1.txt'[C[1P code.py[K'/home/s4c2/ceccs18c39/cs232/2402/res_s1.txt'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ps1.txt'[1P1.txt'[1Ps1.txt'[1Ps1.txt'res_s1.txt'[C[1Ps1.txt'[1P1.txt'[1Ps1.txt'[1Ps1.txt'
+No command 'pytho' found, did you mean:
+ Command 'python' from package 'python-minimal' (main)
+pytho: command not found
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ pytho code.py[K'/home/s4c2/ceccs18c39/cs232/2402/s1.txt'[Cn code.py[K'/home/s4c2/ceccs18c39/cs232/2402/s1.txt'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+python: can't open file 'code.py[K/home/s4c2/ceccs18c39/cs232/2402/s1.txt': [Errno 2] No such file or directory
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ python code.py[K'/home/s4c2/ceccs18c39/cs232/2402/s1.txt'c.txt's.txt'
+python: can't open file 'code.py[K/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt': [Errno 2] No such file or directory
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ python code.py[K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'[C[1P code.py[K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'
+No command 'pytho' found, did you mean:
+ Command 'python' from package 'python-minimal' (main)
+pytho: command not found
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ gedit [K[K[K[K[K[Kgedit code.py
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ pi[Kyto[Khon code
+python: can't open file 'code': [Errno 2] No such file or directory
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ python code.py
+
+Traceback (most recent call last):
+  File "code.py", line 2, in <module>
+    fname = input()
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ python code.py[Kgedit code.pypytho code.py[K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'
+No command 'pytho' found, did you mean:
+ Command 'python' from package 'python-minimal' (main)
+pytho: command not found
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ pytho code.py[K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'[1P code.py[K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'o code.py[K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'n code.py[K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'
+python: can't open file 'code.py[K/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt': [Errno 2] No such file or directory
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ python code.py[K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt' [K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'[C[C[C
+^Z
+[1]+  Stopped                 python code.py [K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ python code.py [K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'[Kpython code.py [K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'
+^Z
+[2]+  Stopped                 python code.py [K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ python code.py [K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'[1P[K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'
+python: can't open file 'code.py[K/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt': [Errno 2] No such file or directory
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ python code.py[K'/home/s4c2/ceccs18c39/cs232/2402/s1cs.txt'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgrep "c[KCHM[KNC[K18CS" S2.TXT [K[K[K[K[K[K[Ks2.txt > s2res.t[1P.t[1P.t[1P.tc.ts.t[C.tt.tx.tt.t[C[C[K[K
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ grep "CHN18CS" s2.txt > s2cs.txt[C[C[C[1P s2cs.txt[1Ps2cs.txt[1P s2cs.txt[1P s2cs.txt[1P s2cs.txt[1P s2cs.txt[1P s2cs.txt[1P s2cs.txt[1Ps2cs.txt[1P s2cs.txt[1P s2cs.txt[1P s2cs.txt[1P s2cs.txt[1P s2cs.txt[1P s2cs.txt[1P s2cs.txt[1P s2cs.txt[1P s2cs.txt[1Ps2cs.txt[1P s2cs.txt[1P s2cs.txt[1P s2cs.txt[1P s2cs.txtc s2cs.txta s2cs.txtt s2cs.txt
+CHN18CS001   CY100(A+), BE100(A), EC100(A), CY110(O), EC110(A), MA102(B), BE102(B+), CS100(B),
+CHN18CS002   CY100(F), BE100(F), EE100(F), EC100(F), CY110(A), EC110(B+), MA102(F), BE102(B),
+CHN18CS003   CY100(O), BE100(B+), EC100(O), CY110(A+), EC110(O), MA102(A), BE102(A+), CS100(A+),
+CHN18CS004   CY100(B+), BE100(B+), EC100(A+), CY110(O), EC110(O), MA102(B+), BE102(O), CS100(A),
+CHN18CS005   CY100(B), BE100(B), EC100(A+), CY110(O), EC110(O), MA102(B), BE102(A), CS100(C),
+CHN18CS006   CY100(P), BE100(C), EC100(C), CY110(B), EC110(B+), MA102(FE), BE102(C), CS100(F),
+CHN18CS007   CY100(A), BE100(B+), EC100(B+), CY110(A+), EC110(O), MA102(B+), BE102(A), CS100(B+),
+CHN18CS008   CY100(B+), BE100(B+), EC100(A), CY110(A+), EC110(A+), MA102(C), BE102(A+), CS100(A),
+CHN18CS009   CY100(O), BE100(O), EC100(O), CY110(O), EC110(O), MA102(A), BE102(O), CS100(B),
+CHN18CS010   CY100(O), BE100(O), EC100(A+), CY110(O), EC110(O), MA102(A), BE102(O), CS100(A),
+CHN18CS011   CY100(B), BE100(B+), EC100(B), CY110(O), EC110(O), MA102(B), BE102(O), CS100(F),
+CHN18CS012   CY100(A), BE100(B+), EC100(B+), CY110(A+), EC110(A+), MA102(C), BE102(A+), CS100(C),
+CHN18CS013   CY100(B), BE100(B), EC100(B+), CY110(O), EC110(O), MA102(F), BE102(O), CS100(F),
+CHN18CS014   PH100(C), CY100(C), BE100(C), EE100(F), EC100(B), CY110(B+), EC110(A+), MA102(F),
+CHN18CS015   CY100(C), BE100(C), EC100(B), CY110(B), EC110(A+), MA102(F), BE102(B+), CS100(P),
+CHN18CS016   CY100(O), BE100(A), EC100(B+), CY110(A+), EC110(O), MA102(A), BE102(A+), CS100(C),
+CHN18CS017   CY100(A), BE100(A), EC100(B), CY110(O), EC110(O), MA102(B), BE102(A+), CS100(O),
+CHN18CS018   CY100(O), BE100(A+), EC100(A+), CY110(O), EC110(O), MA102(O), BE102(A+), CS100(O),
+CHN18CS019   CY100(B), BE100(P), EC100(B), CY110(A+), EC110(O), MA102(C), BE102(A+), CS100(F),
+CHN18CS020   CY100(O), BE100(O), EC100(A), CY110(O), EC110(O), MA102(A), BE102(O), CS100(B),
+CHN18CS021   CY100(O), BE100(B), EC100(B+), CY110(O), EC110(O), MA102(B+), BE102(O), CS100(B+),
+CHN18CS022   PH100(F), CY100(P), BE100(C), EE100(C), EC100(C), CY110(B+), EC110(A+), MA102(C),
+CHN18CS023   CY100(B+), BE100(B), EC100(A), CY110(A), EC110(O), MA102(B), BE102(A+), CS100(A+),
+CHN18CS024   CY100(F), BE100(F), EE100(B), EC100(C), CY110(B+), EC110(A+), MA102(F), BE102(B+),
+CHN18CS025   CY100(B+), BE100(B), EC100(B+), CY110(B+), EC110(A+), MA102(C), BE102(O), CS100(B+),
+CHN18CS026   CY100(A), BE100(B+), EC100(A+), CY110(A+), EC110(O), MA102(O), BE102(A+), CS100(B+),
+CHN18CS027   PH100(F), CY100(F), BE100(F), EC100(B), CY110(B+), EC110(O), MA102(C), BE102(A+),
+CHN18CS028   CY100(F), BE100(C), EC100(C), CY110(B+), EC110(O), MA102(F), BE102(B+), CS100(B),
+CHN18CS029   CY100(O), BE100(O), EC100(O), CY110(O), EC110(O), MA102(A+), BE102(A+), CS100(B+),
+CHN18CS030   CY100(F), BE100(A), EC100(B), CY110(A), EC110(O), MA102(C), BE102(B+), CS100(C),
+CHN18CS031   CY100(P), BE100(B), EE100(C), EC100(F), CY110(A), EC110(O), MA102(F), BE102(A+),
+CHN18CS032   CY100(B+), BE100(C), EC100(B+), CY110(A), EC110(O), MA102(B), BE102(B), CS100(B),
+CHN18CS033   CY100(O), BE100(A+), EC100(O), CY110(O), EC110(O), MA102(B+), BE102(A+), CS100(B),
+CHN18CS034   CY100(C), BE100(B), EC100(B), CY110(A+), EC110(O), MA102(C), BE102(A), CS100(F),
+CHN18CS035   CY100(O), BE100(A+), EC100(O), CY110(O), EC110(O), MA102(O), BE102(B+), CS100(B+),
+CHN18CS036   CY100(A+), BE100(B+), EC100(O), CY110(O), EC110(O), MA102(B), BE102(B+), CS100(B+),
+CHN18CS037   CY100(B+), BE100(A), EC100(B+), CY110(A), EC110(O), MA102(B+), BE102(B+), CS100(B+),
+CHN18CS038   CY100(O), BE100(B+), EC100(A+), CY110(A+), EC110(O), MA102(A), BE102(B+), CS100(C),
+CHN18CS039   CY100(B), BE100(B), EC100(B+), CY110(O), EC110(O), MA102(A), BE102(A+), CS100(B),
+CHN18CS040   CY100(C), BE100(F), EC100(C), CY110(O), EC110(O), MA102(C), BE102(A), CS100(B),
+CHN18CS041   PH100(Absent), CY100(C), BE100(F), EE100(B), EC100(C), CY110(A), EC110(O), MA102(C),
+CHN18CS042   CY100(B), BE100(B), EC100(B+), CY110(B+), EC110(O), MA102(B+), BE102(A+), CS100(C),
+CHN18CS043   CY100(A+), BE100(B+), EC100(B+), CY110(O), EC110(O), MA102(B+), BE102(A), CS100(B+),
+CHN18CS044   CY100(F), BE100(F), BE110(B), EC100(C), CY110(A+), EC110(O), MA102(F), BE102(B+),
+CHN18CS045   CY100(B+), BE100(C), EC100(B+), CY110(A+), EC110(O), MA102(P), BE102(A+), CS100(B),
+CHN18CS046   CY100(B), BE100(C), EC100(A+), CY110(A+), EC110(O), MA102(C), BE102(A+), CS100(B),
+CHN18CS047   CY100(B+), BE100(F), EC100(B), CY110(A+), EC110(A), MA102(B+), BE102(B+), CS100(B),
+CHN18CS048   PH100(F), CY100(C), BE100(F), EE100(F), EC100(C), CY110(B+), EC110(A+), MA102(F),
+CHN18CS049   CY100(B+), BE100(A), EC100(A), CY110(O), EC110(A+), MA102(A+), BE102(A), CS100(A+),
+CHN18CS050   CY100(F), BE100(F), EE100(F), EC100(F), CY110(A), EC110(O), MA102(P), BE102(B+),
+CHN18CS051   CY100(B+), BE100(B), EC100(B+), CY110(A+), EC110(O), MA102(F), BE102(A), CS100(F),
+CHN18CS052   CY100(F), BE100(F), EE100(Absent), EC100(C), CY110(B+), EC110(B+), MA102(C), BE102(B+),
+CHN18CS053   CY100(A+), BE100(B), EC100(B), CY110(O), EC110(A+), MA102(F), BE102(B+), CS100(C),
+CHN18CS054   CY100(O), BE100(B+), EC100(O), CY110(O), EC110(O), MA102(B+), BE102(O), CS100(B),
+CHN18CS055   CY100(B+), BE100(B), EC100(B+), CY110(O), EC110(O), MA102(B+), BE102(A), CS100(C),
+CHN18CS056   CY100(B+), BE100(B), EC100(B), CY110(A+), EC110(O), MA102(B), BE102(B+), CS100(B),
+CHN18CS057   CY100(B+), BE100(B), EC100(A), CY110(A+), EC110(O), MA102(C), BE102(B+), CS100(B),
+CHN18CS058   CY100(A+), BE100(B+), EC100(O), CY110(O), EC110(O), MA102(B+), BE102(A+), CS100(B+),
+CHN18CS059   CY100(O), BE100(A+), EC100(B+), CY110(O), EC110(O), MA102(B+), BE102(A+), CS100(A+),
+CHN18CS060   PH100(Absent), CY100(B+), BE100(F), EC100(B), CY110(A+), EC110(O), MA102(F), BE102(A),
+CHN18CS061   CY100(F), BE100(FE), EC100(FE), CY110(A+), EC110(FE), MA102(FE), BE102(C), CS100(B),
+CHN18CS062   CY100(O), BE100(O), EC100(O), CY110(O), EC110(O), MA102(O), BE102(A), CS100(O),
+CHN18CS063   CY100(B+), BE100(B+), EC100(B+), CY110(O), EC110(O), MA102(B), BE102(A), CS100(B),
+CHN18CS064   CY100(C), BE100(C), EC100(B+), CY110(O), EC110(O), MA102(F), BE102(A), CS100(C),
+CHN18CS065   PH100(C), CY100(C), BE100(C), EE100(B), EC100(C), CY110(A+), EC110(O), MA102(F),
+CHN18CS066   CY100(B), BE100(C), EC100(B), CY110(O), EC110(O), MA102(F), BE102(A), CS100(F),
+CHN18CS067   CY100(B+), BE100(B), EC100(A), CY110(A), EC110(O), MA102(C), BE102(A+), CS100(F),
+CHN18CS068   CY100(B+), BE100(B), EC100(B+), CY110(A+), EC110(O), MA102(B), BE102(A+), CS100(B),
+CHN18CS069   CY100(A+), BE100(B+), EC100(A+), CY110(O), EC110(O), MA102(B), BE102(A), CS100(C),
+CHN18CS070   CY100(A), BE100(A), EC100(A+), CY110(O), EC110(O), MA102(B+), BE102(A), CS100(B),
+CHN18CS071   CY100(P), BE100(F), EC100(C), CY110(A), EC110(A), MA102(F), BE102(B), CS100(F),
+CHN18CS072   CY100(A), BE100(A), EC100(B), CY110(O), EC110(O), MA102(C), BE102(B+), CS100(B+),
+CHN18CS073   CY100(A+), BE100(O), EC100(A+), CY110(A+), EC110(O), MA102(A), BE102(B+), CS100(B+),
+CHN18CS074   PH100(C), CY100(B), BE100(B+), EE100(B), EC100(B), CY110(A), EC110(O), MA102(B),
+CHN18CS075   CY100(B), BE100(B), EC100(B), CY110(A), EC110(O), MA102(B), BE102(B+), CS100(B+),
+CHN18CS076   PH100(B), CY100(C), BE100(B), EC100(B+), CY110(A+), EC110(O), MA102(F), BE102(A),
+CHN18CS077   CY100(O), BE100(O), EC100(O), CY110(O), EC110(O), MA102(O), BE102(O), CS100(B),
+CHN18CS078   CY100(B+), BE100(B+), EC100(B+), CY110(O), EC110(O), MA102(C), BE102(B+), CS100(A),
+CHN18CS079   CY100(P), BE100(C), EC100(B), CY110(O), EC110(O), MA102(B), BE102(B+), CS100(B+),
+CHN18CS080   CY100(O), BE100(A+), EC100(O), CY110(O), EC110(O), MA102(O), BE102(O), CS100(B+),
+CHN18CS081   CY100(B), BE100(F), EC100(B+), CY110(O), EC110(O), MA102(B+), BE102(B+), CS100(C),
+CHN18CS082   CY100(C), BE100(F), EC100(B+), CY110(B+), EC110(O), MA102(C), BE102(A+), CS100(B+),
+CHN18CS083   PH100(F), CY100(C), BE100(B), BE110(B), EC100(B), CY110(B), EC110(O), MA102(C),
+CHN18CS084   CY100(B), BE100(B), EC100(B+), CY110(A+), EC110(O), MA102(C), BE102(B+), CS100(B),
+CHN18CS085   PH100(C), CY100(F), BE100(B), EE100(C), EC100(C), CY110(A), EC110(O), MA102(C),
+CHN18CS086   CY100(F), BE100(B), EC100(B+), CY110(A+), EC110(O), MA102(FE), BE102(O), CS100(C),
+CHN18CS087   CY100(O), BE100(O), EC100(O), CY110(O), EC110(O), MA102(O), BE102(O), CS100(A),
+CHN18CS088   CY100(C), BE100(F), EC100(C), CY110(O), EC110(O), MA102(B), BE102(A), CS100(F),
+CHN18CS089   CY100(B+), BE100(B), EC100(B), CY110(O), EC110(O), MA102(F), BE102(O), CS100(F),
+CHN18CS090   CY100(F), BE100(F), EC100(F), CY110(A), EC110(A+), MA102(FE), BE102(B), CS100(F),
+CHN18CS091   CY100(A+), BE100(A), EC100(O), CY110(O), EC110(O), MA102(A), BE102(O), CS100(B),
+CHN18CS092   CY100(O), BE100(O), EC100(A+), CY110(O), EC110(O), MA102(O), BE102(O), CS100(B),
+CHN18CS093   CY100(A+), BE100(A+), EC100(A+), CY110(O), EC110(O), MA102(A+), BE102(A+), CS100(O),
+CHN18CS094   CY100(B+), BE100(B), EC100(A), CY110(A), EC110(O), MA102(B+), BE102(A), CS100(P),
+CHN18CS095   CY100(O), BE100(B+), EC100(O), CY110(O), EC110(O), MA102(O), BE102(O), CS100(A+),
+CHN18CS096   CY100(B+), BE100(B), EC100(B), CY110(O), EC110(O), MA102(B), BE102(A+), CS100(B),
+CHN18CS097   CY100(B), BE100(B), EC100(B+), CY110(A), EC110(O), MA102(F), BE102(A), CS100(F),
+CHN18CS098   PH100(F), CY100(F), BE100(C), EE100(C), EC100(C), CY110(A), EC110(O), MA102(F),
+CHN18CS099   CY100(O), BE100(A+), EC100(O), CY110(O), EC110(O), MA102(A+), BE102(O), CS100(A+),
+CHN18CS100   CY100(B), BE100(A), EC100(B), CY110(B+), EC110(O), MA102(F), BE102(A+), CS100(B),
+CHN18CS101   CY100(B), BE100(B), EC100(B+), CY110(A), EC110(O), MA102(C), BE102(A+), CS100(F),
+CHN18CS102   CY100(A+), BE100(A+), EC100(O), CY110(O), EC110(O), MA102(B+), BE102(O), CS100(C),
+CHN18CS103   CY100(O), BE100(A), EC100(O), CY110(O), EC110(O), MA102(B+), BE102(A+), CS100(B),
+CHN18CS104   CY100(A+), BE100(A), EC100(A), CY110(O), EC110(O), MA102(A), BE102(A), CS100(B+),
+CHN18CS105   CY100(B), BE100(B), EC100(B+), CY110(A+), EC110(O), MA102(B), BE102(O), CS100(B),
+CHN18CS106   CY100(C), BE100(C), EC100(C), CY110(A), EC110(O), MA102(F), BE102(B+), CS100(F),
+CHN18CS107   CY100(B), BE100(C), EC100(B+), CY110(A+), EC110(O), MA102(B+), BE102(O), CS100(C),
+CHN18CS108   PH100(B), CY100(B), BE100(B), EC100(B), CY110(B+), EC110(O), MA102(B+), BE102(B+),
+CHN18CS109   CY100(B), BE100(B), EC100(B), CY110(B+), EC110(O), MA102(C), BE102(B+), CS100(C),
+CHN18CS110   CY100(C), BE100(F), EC100(P), CY110(B+), EC110(O), MA102(F), BE102(B), CS100(F),
+CHN18CS111   CY100(B+), BE100(B+), EC100(A+), CY110(A+), EC110(O), MA102(B+), BE102(A), CS100(B+),
+CHN18CS112   CY100(B), BE100(B), EC100(B+), CY110(O), EC110(O), MA102(B), BE102(O), CS100(C),
+CHN18CS113   CY100(A), BE100(B), EC100(B+), CY110(A), EC110(O), MA102(B+), BE102(B), CS100(C),
+CHN18CS114   CY100(B), BE100(B), EC100(F), CY110(O), EC110(O), MA102(F), BE102(B+), CS100(F),
+CHN18CS115   CY100(B+), BE100(B+), EC100(A+), CY110(A+), EC110(O), MA102(A+), BE102(O), CS100(F),
+CHN18CS116   CY100(A), BE100(A), EC100(B+), CY110(B+), EC110(O), MA102(B+), BE102(A+), CS100(B),
+CHN18CS117   PH100(F), CY100(C), BE100(C), BE110(A), EE100(F), EC100(F), CY110(B+), EC110(O),
+CHN18CS118   CY100(C), BE100(F), EC100(B), CY110(B+), EC110(O), MA102(F), BE102(B), CS100(B+),
+CHN18CS119   PH100(F), CY100(F), BE100(F), EE100(F), EC100(F), CY110(B+), EC110(O), MA102(F),
+CHN18CS120   CY100(C), BE100(C), EC100(C), CY110(A), EC110(O), MA102(F), BE102(A), CS100(F),
+CHN18CS121       CY100(B), BE100(B+), EC100(B+), CY110(B+), EC110(O), MA102(P), BE102(A+), CS100(B),
+CHN18CS122       CY100(A+), BE100(A+), EC100(A+), CY110(O), EC110(O), MA102(A+), BE102(A), CS100(B+),
+CHN18CS123       CY100(F), BE100(B+), EC100(F), CY110(O), EC110(O), MA102(F), BE102(A+), CS100(B),
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ nano script.sh
+[?1049h[1;41r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6                                   File: script.sh                                                                              [39;67H[ New File ][40d^G(B[m Get Help[40;25H(B[0;7m^O(B[m WriteOut[40;49H(B[0;7m^R(B[m Read File[40;73H(B[0;7m^Y(B[m Prev Page[40;97H(B[0;7m^K(B[m Cut Text[40;121H(B[0;7m^C(B[m Cur Pos[41d(B[0;7m^X(B[m Exit[41;25H(B[0;7m^J(B[m Justify[41;49H(B[0;7m^W(B[m Where Is[41;73H(B[0;7m^V(B[m Next Page[41;97H(B[0;7m^U(B[m UnCut Text[41;121H(B[0;7m^T(B[m To Spell[3d[1;135H(B[0;7mModified[3d(B[0m[36m# Computes CGPA and counts subjects failed in[4d[39m(B[mawk '[32m{[5;9H[39m(B[msum [32m=[39m(B[m 0[6;9Hflag [32m=[39m(B[m 0[7;9Hfails [32m=[39m(B[m 0[8;9H[32mfor([39m(B[mvar [32m=[39m(B[m2[32m;[39m(B[m var[32m<=[39m(B[mNF[32m;[39m(B[m var++[32m)[9;9H{[39m[42m       [10d[49m[32mif((B[0;1m[31m$var[39m(B[m [32m==[39m(B[m 0[32m)[39m[42m [11;17H[49m[32m{[12;25H[39m(B[mflag [32m=[39m(B[m 1[13;25Hfails [32m=[39m(B[m fails + 1[14;17H[32m}[15d[39m(B[msum +[32m=[39m(B[m (B[0;1m[31m$var[16;9H(B[0m[32m}[17d[39m(B[mcgpa [32m=[39m(B[m sum/9[18;9H[32mif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 0[32m)[39m(B[m [32m{[39m[42m        [19;17H[49m(B[mprintf[32m((B[0;1m[33m"%s %0.2f\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,cgpa[32m)[20;9H}[21dif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 1[32m)[39m(B[m [32m{[22;17H[39m(B[mprintf[32m((B[0;1m[33m"%s failed in %d\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,fails[32m)[23;9H}[24d}[39m(B[m' gp.txt [32m>[39m(B[m cgpa_raw.txt[28d[36m# adds name and roll no[29d[39m(B[mjoin students.txt  cgpa_raw.txt [32m>[39m(B[m cgpa.txt[31d[36m# Removes temperory files used to process[32d(B[0;1m[34mrm[39m(B[m result.txt[33d(B[0;1m[34mrm[39m(B[m result_cs.txt[34d(B[0;1m[34mrm[39m(B[m result_na.txt[35d(B[0;1m[34mrm[39m(B[m result_nn.txt[36d(B[0;1m[34mrm[39m(B[m gp.txt[37d(B[0;1m[34mrm[39m(B[m cgpa_raw.txt[39d[K[A[39d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                    [40;1H Y(B[m Yes[K[41d(B[0;7m N(B[m No  [41;17H(B[0;7m^C(B[m Cancel[K[39;62H(B[0;7mFile Name to Write: script.sh                               [40d^G(B[m Get Help[40;37H(B[0;7mM-D(B[m DOS Format[40;73H(B[0;7mM-A(B[m Append[40;109H(B[0;7mM-B(B[m Backup File[41d(B[0;7m^C(B[m Cancel[17G         [41;37H(B[0;7mM-M(B[m Mac Format[41;73H(B[0;7mM-P(B[m Prepend[39;30H[40d[39;49m(B[m[J[1;135H(B[0;7m        [39;63H(B[m[1K (B[0;7m[ Wrote 72 lines ](B[m[K[41;144H[41;1H[?1049l[?1l>]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ chmod +X crip[t[K[K[K[K[K[Kscript.sh
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ./script.sh
+bash: ./script.sh: Permission denied
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ./script.sh[K./script.sh
+bash: ./script.sh: Permission denied
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ./script.sh
+bash: ./script.sh: Permission denied
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ./script.shchmod +X script.sh[C[1P script.sh[1P script.sh7 script.sh7 script.sh7 script.sh
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ chmod 777 script.sh[8P./script.sh
+[H[2J]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ./script.sh[K./script.shchmod 777 script.sh[8P./script.shchmod +X script.sh[4Pnano[C[C[C[C[C[C[C[C[C[C1.sh[C[C
+[?1049h[1;41r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6                                   File: script1.sh                                                                             [39;67H[ New File ][40d^G(B[m Get Help[40;25H(B[0;7m^O(B[m WriteOut[40;49H(B[0;7m^R(B[m Read File[40;73H(B[0;7m^Y(B[m Prev Page[40;97H(B[0;7m^K(B[m Cut Text[40;121H(B[0;7m^C(B[m Cur Pos[41d(B[0;7m^X(B[m Exit[41;25H(B[0;7m^J(B[m Justify[41;49H(B[0;7m^W(B[m Where Is[41;73H(B[0;7m^V(B[m Next Page[41;97H(B[0;7m^U(B[m UnCut Text[41;121H(B[0;7m^T(B[m To Spell[3d[1;135H(B[0;7mModified[3d(B[0m[36m# Computes CGPA and counts subjects failed in[4d[39m(B[mawk '[32m{[5;9H[39m(B[msum [32m=[39m(B[m 0[6;9Hflag [32m=[39m(B[m 0[7;9Hfails [32m=[39m(B[m 0[8;9H[32mfor([39m(B[mvar [32m=[39m(B[m2[32m;[39m(B[m var[32m<=[39m(B[mNF[32m;[39m(B[m var++[32m)[9;9H{[39m[42m       [10d[49m[32mif((B[0;1m[31m$var[39m(B[m [32m==[39m(B[m 0[32m)[39m[42m [11;17H[49m[32m{[12;25H[39m(B[mflag [32m=[39m(B[m 1[13;25Hfails [32m=[39m(B[m fails + 1[14;17H[32m}[15d[39m(B[msum +[32m=[39m(B[m (B[0;1m[31m$var[16;9H(B[0m[32m}[17d[39m(B[mcgpa [32m=[39m(B[m sum/9[18;9H[32mif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 0[32m)[39m(B[m [32m{[39m[42m        [19;17H[49m(B[mprintf[32m((B[0;1m[33m"%s %0.2f\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,cgpa[32m)[20;9H}[21dif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 1[32m)[39m(B[m [32m{[22;17H[39m(B[mprintf[32m((B[0;1m[33m"%s failed in %d\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,fails[32m)[23;9H}[24d}[39m(B[m' gp.txt [32m>[39m(B[m cgpa_raw.txt[28d[36m# adds name and roll no[29d[39m(B[mjoin students.txt  cgpa_raw.txt [32m>[39m(B[m cgpa.txt[31d[36m# Removes temperory files used to process[32d(B[0;1m[34mrm[39m(B[m result.txt[33d(B[0;1m[34mrm[39m(B[m result_cs.txt[34d(B[0;1m[34mrm[39m(B[m result_na.txt[35d(B[0;1m[34mrm[39m(B[m result_nn.txt[36d(B[0;1m[34mrm[39m(B[m gp.txt[37d(B[0;1m[34mrm[39m(B[m cgpa_raw.txt[39d[K[A[A[A[A[A[A[28d[25d[23d[18d[14d[A[A[A[A[A[A[A[A[A[A[A[2;38r[2;1H[19T[1;41r[4;1H[36m# Convert Grades to Grade Points[39m[42m [5d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[6d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[7d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[8d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[9d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[10d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[11d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[12d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[13d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[14d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[15d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[17d[36m# Seperates gradepoints[39m[42m [18d[49m(B[mawk  '[32m{[39m[42m  [19d[49m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$11[39m(B[m,(B[0;1m[31m$13[39m(B[m,(B[0;1m[31m$15[39m(B[m,(B[0;1m[31m$17[39m(B[m,(B[0;1m[31m$19[20;2H(B[0m[32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [21d[49m(B[m[17d[12d[2;38r[2;1H[17T[1;41r[3;1H[36m#!/bin/bash[5d# Clears current screen[6d[39m(B[mclear[8d[36m# Coverts .pdf to .txt[9d[39m(B[mpdftotext -layout s1.pdf result_CHN.txt[11d[36m# Separates out results of CS students[12d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m s1.txt [32m>[39m(B[m result_cs.txt[14d[36m# Cleans up and arranges the data in organised manner[15d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[16d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[17dawk (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[18d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[19dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[14d[9d[4d[A[C[36ms!/bin/bash#s[39m(B[m[1P[C[1P[4d[5;2H[6d[7d[8d[C[9ddftotext -layout s1.p[1P2.pdf result_CHN.txt[9;21H[10d[11;21H[12drator -A3 [C[C[C[C[C[C[C[C[C s1[1P2.txt [32m>[39m(B[m result_cs.txt[12;43H[39;57H(B[0;7m[ XOFF ignored, mumble mumble ][12;43H(B[m[13d[14;43H[15d[16d[17d[18d[19d[20d[21;34H[22d[25d[27d[29d[32;36H[37;25H[39d[K[A7[3;39r8[39d[19S[1;41r[20;1H[36m# Computes CGPA and counts subjects failed in[21d[39m(B[mawk '[32m{[22;9H[39m(B[msum [32m=[39m(B[m 0[23;9Hflag [32m=[39m(B[m 0[24;9Hfails [32m=[39m(B[m 0[25;9H[32mfor([39m(B[mvar [32m=[39m(B[m2[32m;[39m(B[m var[32m<=[39m(B[mNF[32m;[39m(B[m var++[32m)[26;9H{[39m[42m       [27d[49m[32mif((B[0;1m[31m$var[39m(B[m [32m==[39m(B[m 0[32m)[39m[42m [28;17H[49m[32m{[29;25H[39m(B[mflag [32m=[39m(B[m 1[30;25Hfails [32m=[39m(B[m fails + 1[31;17H[32m}[32d[39m(B[msum +[32m=[39m(B[m (B[0;1m[31m$var[33;9H(B[0m[32m}[34d[39m(B[mcgpa [32m=[39m(B[m sum/9[35;9H[32mif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 0[32m)[39m(B[m [32m{[39m[42m        [36;17H[49m(B[mprintf[32m((B[0;1m[33m"%s %0.2f\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,cgpa[32m)[37;9H}[38dif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 1[32m)[39m(B[m [32m{[20;43H[39m(B[m[23;17H[24d0[25;36H[26;17H[27;31H[28;18H[29;33H[30;42H[31;18H[32;28H[33;10H[34;21H[35;33H[36;43H[37;10H[38;25H7[2;39r8[39d[19S[1;41r[2;1H[K[20;17Hprintf[32m((B[0;1m[33m"%s failed in %d\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,fails[32m)[21;9H}[22d}[39m(B[m' gp.txt [32m>[39m(B[m cgpa_raw.txt[26d[36m# adds name and roll no[27d[39m(B[mjoin students.txt  cgpa_raw.txt [32m>[39m(B[m cgpa.txt[29d[36m# Removes temperory files used to process[30d(B[0;1m[34mrm[39m(B[m result.txt[31d(B[0;1m[34mrm[39m(B[m result_cs.txt[32d(B[0;1m[34mrm[39m(B[m result_na.txt[33d(B[0;1m[34mrm[39m(B[m result_nn.txt[34d(B[0;1m[34mrm[39m(B[m gp.txt[35d(B[0;1m[34mrm[39m(B[m cgpa_raw.txt[20;43H[21;10H[22;25H[23d[24d[25d[26;24H[27;43H[28d[29;42H[30;14H[31;17H[32d[33d[34;10H[35;16H[36d[37d[39;57H(B[0;7m[ XOFF ignored, mumble mumble ][37d(B[m[39d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                    [40;1H Y(B[m Yes[K[41d(B[0;7m N(B[m No  [41;17H(B[0;7m^C(B[m Cancel[K[39;62H(B[0;7mFile Name to Write: script1.sh                              [40d^G(B[m Get Help[40;37H(B[0;7mM-D(B[m DOS Format[40;73H(B[0;7mM-A(B[m Append[40;109H(B[0;7mM-B(B[m Backup File[41d(B[0;7m^C(B[m Cancel[17G         [41;37H(B[0;7mM-M(B[m Mac Format[41;73H(B[0;7mM-P(B[m Prepend[39;31H[39;65H[1K (B[0;7m[ Cancelled ](B[m[K[40;25H(B[0;7m^O(B[m WriteOut             (B[0;7m^R(B[m Read File[40;73H(B[0;7m^Y(B[m Prev Page[40;97H(B[0;7m^K(B[m Cut Text             (B[0;7m^C(B[m Cur Pos[41;2H(B[0;7mX(B[m Exit  [41;25H(B[0;7m^J(B[m Justify[14X[41;49H(B[0;7m^W(B[m Where Is[41;73H(B[0;7m^V(B[m Next Page[41;97H(B[0;7m^U(B[m UnCut Text[41;121H(B[0;7m^T(B[m To Spell[37d[39d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                    [40;1H Y(B[m Yes[K[41d(B[0;7m N(B[m No  [41;17H(B[0;7m^C(B[m Cancel[K[39;62H[40d[J[41;144H[41;1H[?1049l[?1l>]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 00:19:db:31:c1:91  
+          inet addr:192.168.0.120  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::219:dbff:fe31:c191/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:235512 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:25231 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:48633744 (48.6 MB)  TX bytes:5565099 (5.5 MB)
+          Interrupt:18 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1972 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1972 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:132068 (132.0 KB)  TX bytes:132068 (132.0 KB)
+
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ifconfignano script1.sh
+[?1049h[1;41r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6                                   File: script1.sh                                                                             [39;67H[ New File ][40d^G(B[m Get Help[40;25H(B[0;7m^O(B[m WriteOut[40;49H(B[0;7m^R(B[m Read File[40;73H(B[0;7m^Y(B[m Prev Page[40;97H(B[0;7m^K(B[m Cut Text[40;121H(B[0;7m^C(B[m Cur Pos[41d(B[0;7m^X(B[m Exit[41;25H(B[0;7m^J(B[m Justify[41;49H(B[0;7m^W(B[m Where Is[41;73H(B[0;7m^V(B[m Next Page[41;97H(B[0;7m^U(B[m UnCut Text[41;121H(B[0;7m^T(B[m To Spell[3d[1;135H(B[0;7mModified[3d(B[0m[36m# Computes CGPA and counts subjects failed in[4d[39m(B[mawk '[32m{[5;9H[39m(B[msum [32m=[39m(B[m 0[6;9Hflag [32m=[39m(B[m 0[7;9Hfails [32m=[39m(B[m 0[8;9H[32mfor([39m(B[mvar [32m=[39m(B[m2[32m;[39m(B[m var[32m<=[39m(B[mNF[32m;[39m(B[m var++[32m)[9;9H{[39m[42m       [10d[49m[32mif((B[0;1m[31m$var[39m(B[m [32m==[39m(B[m 0[32m)[39m[42m [11;17H[49m[32m{[12;25H[39m(B[mflag [32m=[39m(B[m 1[13;25Hfails [32m=[39m(B[m fails + 1[14;17H[32m}[15d[39m(B[msum +[32m=[39m(B[m (B[0;1m[31m$var[16;9H(B[0m[32m}[17d[39m(B[mcgpa [32m=[39m(B[m sum/9[18;9H[32mif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 0[32m)[39m(B[m [32m{[39m[42m        [19;17H[49m(B[mprintf[32m((B[0;1m[33m"%s %0.2f\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,cgpa[32m)[20;9H}[21dif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 1[32m)[39m(B[m [32m{[22;17H[39m(B[mprintf[32m((B[0;1m[33m"%s failed in %d\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,fails[32m)[23;9H}[24d}[39m(B[m' gp.txt [32m>[39m(B[m cgpa_raw.txt[28d[36m# adds name and roll no[29d[39m(B[mjoin students.txt  cgpa_raw.txt [32m>[39m(B[m cgpa.txt[31d[36m# Removes temperory files used to process[32d(B[0;1m[34mrm[39m(B[m result.txt[33d(B[0;1m[34mrm[39m(B[m result_cs.txt[34d(B[0;1m[34mrm[39m(B[m result_na.txt[35d(B[0;1m[34mrm[39m(B[m result_nn.txt[36d(B[0;1m[34mrm[39m(B[m gp.txt[37d(B[0;1m[34mrm[39m(B[m cgpa_raw.txt[39d[K[A[34d[A[29d[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[21d[23d[25d[28d[24d[A[19d[A[15d[13d[10d[8d[4d[A[2;38r[2;1H[19T[1;41r[4;1H[36m# Convert Grades to Grade Points[39m[42m [5d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[6d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[7d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[8d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[9d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[10d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[11d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[12d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[13d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[14d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[15d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[17d[36m# Seperates gradepoints[39m[42m [18d[49m(B[mawk  '[32m{[39m[42m  [19d[49m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$11[39m(B[m,(B[0;1m[31m$13[39m(B[m,(B[0;1m[31m$15[39m(B[m,(B[0;1m[31m$17[39m(B[m,(B[0;1m[31m$19[20;2H(B[0m[32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [A[49m(B[m[17d[13d[A[7d[2;38r[2;1H[17T[1;41r[3;1H[36m#!/bin/bash[5d# Clears current screen[6d[39m(B[mclear[8d[36m# Coverts .pdf to .txt[9d[39m(B[mpdftotext -layout s1.pdf result_CHN.txt[11d[36m# Separates out results of CS students[12d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m s1.txt [32m>[39m(B[m result_cs.txt[14d[36m# Cleans up and arranges the data in organised manner[15d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[16d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[17dawk (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[18d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[19dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[A[A[A[A[A[A[A[A[A[A[4d[A[4d[5d[6d[7d[8d[9dpdftotext -layout s1.p[1P2.pdf result_CHN.txt[9;21H.pdf result[10d[11;32H[C[12d[C[C[C[C[C[C[C s1.[1P2.txt [32m>[39m(B[m result_cs.txt[12;43H[39;57H(B[0;7m[ XOFF ignored, mumble mumble ][12;43H(B[m.[13d[39d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                    [40;1H Y(B[m Yes[K[41d(B[0;7m N(B[m No  [41;17H(B[0;7m^C(B[m Cancel[K[39;62H(B[0;7mFile Name to Write: script1.sh                              [40d^G(B[m Get Help[40;37H(B[0;7mM-D(B[m DOS Format[40;73H(B[0;7mM-A(B[m Append[40;109H(B[0;7mM-B(B[m Backup File[41d(B[0;7m^C(B[m Cancel[17G         [41;37H(B[0;7mM-M(B[m Mac Format[41;73H(B[0;7mM-P(B[m Prepend[39;31H[40d[39;49m(B[m[J[1;135H(B[0;7m        [39;63H(B[m[1K (B[0;7m[ Wrote 72 lines ](B[m[K[41;144H[41;1H[?1049l[?1l>]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ nano script1.sh[7Pifconfignano script1.sh[4P./script.shchmod 777 script.sh[8P./script.shchmod +X script.sh[4Pnano[C[C[C[C[C[C[C[C[C[C[4@chmod +X[C[C[C[C[C[C[C[C[C[C[7P./script.shchmod 777 script.sh
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ chmod 777 script.sh[4Pnano script1.sh[7Pifconfignano script1.sh[4P./script.sh1.sh
+bash: ./script1.sh: Permission denied
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ./script1.shchmod 777 script.sh1.sh
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ chmod 777 script1.sh[8P./script1.sh
+[H[2J]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ./script1.shchmod 777 script1.sh[8P./script1.shchmod 777 script.sh[4Pnano script1.sh[7Pifconfignano script1.sh[7Pifconfignano script1.sh[4P./script.shchmod 777 script.sh
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ chmod 777 script.sh[7P./script1.sh[1P.sh
+[H[2JError: Couldn't open file 's1.pdf': No such file or directory.
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ [K]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ./script.sh
+[H[2J]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ./script.shchmod 777 script.sh[7P./script1.shchmod 777 script1.sh[8P./script1.shchmod 777 script1.sh
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ chmod 777 script1.sh[9P./script.shchmod 777 script.sh[8P./script.sh1.sh1.sh[1P.sh
+[H[2Jgrep: s2.txt: No such file or directory
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ./script1.shchmod 777 script1.sh[9P./script.shchmod 777 script.sh[7P./script1.shchmod 777 script1.sh[8P./script1.shchmod 777 script.sh[4Pnano script1.sh[7Pifconfignano script1.sh
+[?1049h[1;41r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6                                   File: script1.sh                                                                             [3;1H(B[0m[36m#!/bin/bash[5d# Clears current screen[6d[39m(B[mclear[8d[36m# Coverts .pdf to .txt[9d[39m(B[mpdftotext -layout s2.pdf result_CHN.txt[11d[36m# Separates out results of CS students[12d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m s2.txt [32m>[39m(B[m result_cs.txt[14d[36m# Cleans up and arranges the data in organised manner[15d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[16d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[17dawk (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[18d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[19dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[21d[36m# Convert Grades to Grade Points[39m[42m [22d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[23d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[24d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[25d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[26d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[27d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[28d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[29d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[30d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[31d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[32d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[34d[36m# Seperates gradepoints[39m[42m [35d[49m(B[mawk  '[32m{[39m[42m  [36d[49m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$11[39m(B[m,(B[0;1m[31m$13[39m(B[m,(B[0;1m[31m$15[39m(B[m,(B[0;1m[31m$17[39m(B[m,(B[0;1m[31m$19[37;2H(B[0m[32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [39;64H[49m(B[0;7m[ Read 72 lines ][40d^G(B[m Get Help[40;25H(B[0;7m^O(B[m WriteOut[40;49H(B[0;7m^R(B[m Read File[40;73H(B[0;7m^Y(B[m Prev Page[40;97H(B[0;7m^K(B[m Cut Text[40;121H(B[0;7m^C(B[m Cur Pos[41d(B[0;7m^X(B[m Exit[41;25H(B[0;7m^J(B[m Justify[41;49H(B[0;7m^W(B[m Where Is[41;73H(B[0;7m^V(B[m Next Page[41;97H(B[0;7m^U(B[m UnCut Text[41;121H(B[0;7m^T(B[m To Spell[3d[1;135H(B[0;7mModified[3d(B[mr#[32m![39m(B[m/bin/bashre#[32m![39m(B[m/bin/bashres#[32m![39m(B[m/bin/bashres[1P[1P[36m#!/bin/bash[39m(B[m[K[4d[5d[6d[7d[8d[9dpdft[10d[11d[12d[C[C[C[C [39d[K[12;7H-no-group-separator -A3 [C[C[C[C[C[C[C[C[C s2..[1P[1P[1Prtxt [32m>[39m(B[m result_cs.txt[12;42Hetxt [32m>[39m(B[m result_cs.txt[12;43Hstxt [32m>[39m(B[m result_cs.txt[12;44Hutxt [32m>[39m(B[m result_cs.txt[12;45Hltxt [32m>[39m(B[m result_cs.txt[12;46Httxt [32m>[39m(B[m result_cs.txt[12;47H_txt [32m>[39m(B[m result_cs.txt[12;48HCtxt [32m>[39m(B[m result_cs.txt[12;49HHtxt [32m>[39m(B[m result_cs.txt[12;50HNtxt [32m>[39m(B[m result_cs.txt[12;51H.txt [32m>[39m(B[m result_cs.txt[12;52H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.2.6                                   File: script1.sh                                                                   Modified  [3;1H(B[0m[36m#!/bin/bash[5d# Clears current screen[6d[39m(B[mclear[8d[36m# Coverts .pdf to .txt[9d[39m(B[mpdftotext -layout s2.pdf result_CHN.txt[11d[36m# Separates out results of CS students[12d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt [32m>[39m(B[m result_cs.txt[14d[36m# Cleans up and arranges the data in organised manner[15d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[16d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[17dawk (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[18d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[19dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[21d[36m# Convert Grades to Grade Points[39m[42m [22d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[23d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[24d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[25d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[26d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[27d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[28d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[29d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[30d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[31d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[32d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[34d[36m# Seperates gradepoints[39m[42m [35d[49m(B[mawk  '[32m{[39m[42m  [36d[49m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$11[39m(B[m,(B[0;1m[31m$13[39m(B[m,(B[0;1m[31m$15[39m(B[m,(B[0;1m[31m$17[39m(B[m,(B[0;1m[31m$19[37;2H(B[0m[32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [40d[49m(B[0;7m^G(B[m Get Help[40;25H(B[0;7m^O(B[m WriteOut[40;49H(B[0;7m^R(B[m Read File[40;73H(B[0;7m^Y(B[m Prev Page[40;97H(B[0;7m^K(B[m Cut Text[40;121H(B[0;7m^C(B[m Cur Pos[41d(B[0;7m^X(B[m Exit[41;25H(B[0;7m^J(B[m Justify[41;49H(B[0;7m^W(B[m Where Is[41;73H(B[0;7m^V(B[m Next Page[41;97H(B[0;7m^U(B[m UnCut Text[41;121H(B[0;7m^T(B[m To Spell[12;52H[39d[36m# Computes CGPA and counts subjects failed in[40d[39m(B[mawk '[32m{[39m(B[m[K[41;61H[1K (B[0;7m[ Help mode disabled ](B[m[K[12;52H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.2.6                                   File: script1.sh                                                                   Modified  [3;1H(B[0m[36m#!/bin/bash[5d# Clears current screen[6d[39m(B[mclear[8d[36m# Coverts .pdf to .txt[9d[39m(B[mpdftotext -layout s2.pdf result_CHN.txt[11d[36m# Separates out results of CS students[12d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt [32m>[39m(B[m result_cs.txt[14d[36m# Cleans up and arranges the data in organised manner[15d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[16d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[17dawk (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[18d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[19dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[21d[36m# Convert Grades to Grade Points[39m[42m [22d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[23d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[24d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[25d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[26d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[27d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[28d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[29d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[30d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[31d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[32d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[34d[36m# Seperates gradepoints[39m[42m [35d[49m(B[mawk  '[32m{[39m[42m  [36d[49m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$11[39m(B[m,(B[0;1m[31m$13[39m(B[m,(B[0;1m[31m$15[39m(B[m,(B[0;1m[31m$17[39m(B[m,(B[0;1m[31m$19[37;2H(B[0m[32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [39d[49m[36m# Computes CGPA and counts subjects failed in[40d[39m(B[mawk '[32m{[41;62H[39m(B[0;7m[ Help mode disabled ][12;52H(B[m[39;61H[1K (B[0;7m[ Help mode enabled ][40d^G(B[m Get Help[40;25H(B[0;7m^O(B[m WriteOut[40;49H(B[0;7m^R(B[m Read File[40;73H(B[0;7m^Y(B[m Prev Page[40;97H(B[0;7m^K(B[m Cut Text[40;121H(B[0;7m^C(B[m Cur Pos[41d(B[0;7m^X(B[m Exit[41;25H(B[0;7m^J(B[m Justify[41;49H(B[0;7m^W(B[m Where Is             (B[0;7m^V(B[m Next Page[41;97H(B[0;7m^U(B[m UnCut Text[41;121H(B[0;7m^T(B[m To Spell[12;52H[39d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                    [40;1H Y(B[m Yes[K[41d(B[0;7m N(B[m No  [41;17H(B[0;7m^C(B[m Cancel[K[39;62H(B[0;7mFile Name to Write: script1.sh                              [40d^G(B[m Get Help[40;37H(B[0;7mM-D(B[m DOS Format[40;73H(B[0;7mM-A(B[m Append[40;109H(B[0;7mM-B(B[m Backup File[41d(B[0;7m^C(B[m Cancel[17G         [41;37H(B[0;7mM-M(B[m Mac Format[41;73H(B[0;7mM-P(B[m Prepend[39;31H[40d[39;49m(B[m[J[1;135H(B[0;7m        [39;63H(B[m[1K (B[0;7m[ Wrote 72 lines ](B[m[K[41;144H[41;1H[?1049l[?1l>]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ nano script1.sh[3P./script1.shchmod 777 script1.sh
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ chmod 777 script1.sh[5Pnano[C[C[C[C[C[C[C[C[C[C[C[3P./script1.sh
+[H[2J]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ./script1.shchmod 777 script1.sh[5Pnano[C[C[C[C[C[C[C[C[C[C[C[3P./script1.shchmod 777 script1.sh[9P./script.shchmod 777 script1.sh[8P./script1.shnano script1.sh[1P.sh
+[?1049h[1;41r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6                                   File: script.sh                                                                              [3;1H(B[0m[36m#!/bin/bash[5d# Clears current screen[6d[39m(B[mclear[8d[36m# Coverts .pdf to .txt[9d[39m(B[mpdftotext -layout s1.pdf result_CHN.txt[11d[36m# Separates out results of CS students[12d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt [32m>[39m(B[m result_cs.txt[14d[36m# Cleans up and arranges the data in organised manner[15d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[16d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[17dawk (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[18d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[19dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[21d[36m# Convert Grades to Grade Points[39m[42m [22d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[23d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[24d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[25d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[26d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[27d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[28d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[29d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[30d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[31d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[32d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[34d[36m# Seperates gradepoints[39m[42m [35d[49m(B[mawk  '[32m{[39m[42m  [36d[49m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$11[39m(B[m,(B[0;1m[31m$13[39m(B[m,(B[0;1m[31m$15[39m(B[m,(B[0;1m[31m$17[39m(B[m,(B[0;1m[31m$19[37;2H(B[0m[32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [39;64H[49m(B[0;7m[ Read 72 lines ][40d^G(B[m Get Help[40;25H(B[0;7m^O(B[m WriteOut[40;49H(B[0;7m^R(B[m Read File[40;73H(B[0;7m^Y(B[m Prev Page[40;97H(B[0;7m^K(B[m Cut Text[40;121H(B[0;7m^C(B[m Cur Pos[41d(B[0;7m^X(B[m Exit[41;25H(B[0;7m^J(B[m Justify[41;49H(B[0;7m^W(B[m Where Is[41;73H(B[0;7m^V(B[m Next Page[41;97H(B[0;7m^U(B[m UnCut Text[41;121H(B[0;7m^T(B[m To Spell[3d[40d[J[41;144H[41;1H[?1049l[?1l>]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ nano script.sh[2P./script1.shchmod 777 script1.sh[1P.sh
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ chmod 777 script.sh[5Pnano[C[C[C[C[C[C[C[C[C[C[2P./script1.sh[1P.sh
+[H[2J]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ./script.shchmod 777 script.sh[5Pnano[C[C[C[C[C[C[C[C[C[C1.sh
+[?1049h[1;41r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6                                   File: script1.sh                                                                             [3;1H(B[0m[36m#!/bin/bash[5d# Clears current screen[6d[39m(B[mclear[8d[36m# Coverts .pdf to .txt[9d[39m(B[mpdftotext -layout s2.pdf result_CHN.txt[11d[36m# Separates out results of CS students[12d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt [32m>[39m(B[m result_cs.txt[14d[36m# Cleans up and arranges the data in organised manner[15d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[16d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[17dawk (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[18d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[19dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[21d[36m# Convert Grades to Grade Points[39m[42m [22d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[23d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[24d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[25d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[26d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[27d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[28d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[29d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[30d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[31d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[32d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[34d[36m# Seperates gradepoints[39m[42m [35d[49m(B[mawk  '[32m{[39m[42m  [36d[49m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$11[39m(B[m,(B[0;1m[31m$13[39m(B[m,(B[0;1m[31m$15[39m(B[m,(B[0;1m[31m$17[39m(B[m,(B[0;1m[31m$19[37;2H(B[0m[32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [39;64H[49m(B[0;7m[ Read 72 lines ][40d^G(B[m Get Help[40;25H(B[0;7m^O(B[m WriteOut[40;49H(B[0;7m^R(B[m Read File[40;73H(B[0;7m^Y(B[m Prev Page[40;97H(B[0;7m^K(B[m Cut Text[40;121H(B[0;7m^C(B[m Cur Pos[41d(B[0;7m^X(B[m Exit[41;25H(B[0;7m^J(B[m Justify[41;49H(B[0;7m^W(B[m Where Is[41;73H(B[0;7m^V(B[m Next Page[41;97H(B[0;7m^U(B[m UnCut Text[41;121H(B[0;7m^T(B[m To Spell[3d[40d[J[41;144H[41;1H[?1049l[?1l>]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ nano script1.sh[4P./script.shchmod 777 script.sh1.sh
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ chmod 777 script1.sh[5Pnano[C[C[C[C[C[C[C[C[C[C[C[4P./script.sh1.sh
+[H[2J]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ gedite[K report.txt
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 00:19:db:31:c1:91  
+          inet addr:192.168.0.120  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::219:dbff:fe31:c191/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:314826 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:26215 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:54987265 (54.9 MB)  TX bytes:5710492 (5.7 MB)
+          Interrupt:18 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1972 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1972 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:132068 (132.0 KB)  TX bytes:132068 (132.0 KB)
+
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ geti[K[Kdit report.txt
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ gedit report.txt
+192]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ 192gedit report.txt192[K[K[K[KSFTP S[KCS18C39@192.168.0.30
+No command 'SFTP' found, did you mean:
+ Command 'FTP' from package 'ftp.app' (universe)
+SFTP: command not found
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ SFTP CS18C39@192.168.0.30[1P CS18C39@192.168.0.30[1P CS18C39@192.168.0.30[1P CS18C39@192.168.0.30[1P CS18C39@192.168.0.30c CS18C39@192.168.0.30[1P CS18C39@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksp[Kftp cs18c19@189[K[K[K[K[K[K39@192.168.0.0[K30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c39@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302              1002              backup            examples.desktop  
+sftp> mkdir 2402
+sftp> cd 2402
+sftp> dsftp>[K put [K[K[Kquit
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ rsync -av ][K[K[K[K[K[K[K[K[K[K[Ksftp cs18c39@192.168..0.30[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ SFTP CS18C39@192.168.[C[C[C[C[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ [4Pgedit report.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CSFTP CS18C39@192.168..0.30[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ sftp cs18c39@192.168.[C[C[C[C[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csftp cs18c39@192.168..0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c39@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls'[K\[K
+0302              1002              2402              backup            
+examples.desktop  
+sftp> cd 2402
+sftp> put[K[K[Kquit
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ sftp cs18c39@192.168..0.30[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ SFTP CS18C39@192.168.[C[C[C[C[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ sftp cs18c39@192.168.[C[C[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c39@192.168.0.30's password: 
+[3]+  Stopped                 sftp cs18c39@192.168.0.30
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ 
+
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ cd s1
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402/s1s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402/s1$ cd s1sftp cs18c39@192.1168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c39@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> pwd
+Remote working directory: /home/cs18c39
+sftp> cd 2402
+sftp> mkdir s1
+sftp> p[Kcd s1
+sftp> put cgpa.txt
+Uploading cgpa.txt to /home/cs18c39/2402/s1/cgpa.txt
+cgpa.txt                                0%    0     0.0KB/s   --:-- ETAcgpa.txt                              100% 2145     2.1KB/s   00:00    
+sftp> put script.sh
+Uploading script.sh to /home/cs18c39/2402/s1/script.sh
+script.sh                               0%    0     0.0KB/s   --:-- ETAscript.sh                             100% 1543     1.5KB/s   00:00    
+sftp> result[K[K[K[K[K[Kput result_CHN.txt
+Uploading result_CHN.txt to /home/cs18c39/2402/s1/result_CHN.txt
+result_CHN.txt                          0%    0     0.0KB/s   --:-- ETAresult_CHN.txt                        100%   46KB  46.1KB/s   00:00    
+sftp> cd ..
+sftp> ls
+s1  
+sftp> quit
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402/s1s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402/s1$ sftp cs18c39@192.1168.0.30[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402/s1s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402/s1$ cd s1[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csftp cs18c39@192.1168.0.30[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402/s1s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402/s1$ cd s1[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K..
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ mkdir[K[K[K[K[Ks[Kcd 2[Ks12[K[K2
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402/s2s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402/s2$ cd s2..sftp cs18c39@192.1168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c39@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302              1002              2402              backup            
+examples.desktop  
+sftp> cd 2402
+sftp> mkdir s2
+sftp> cs s2
+Invalid command.
+sftp> cs s2s s2[Kd s2
+sftp> cgpa.txt[1@pc[1@uc[1@tc[1@ c
+Uploading cgpa.txt to /home/cs18c39/2402/s2/cgpa.txt
+cgpa.txt                                0%    0     0.0KB/s   --:-- ETAcgpa.txt                              100% 2173     2.1KB/s   00:00    
+sftp> put cgpa.txt[K[K[K[K[K[K[K[Kresult_CHN.tc[Kxt
+Uploading result_CHN.txt to /home/cs18c39/2402/s2/result_CHN.txt
+result_CHN.txt                          0%    0     0.0KB/s   --:-- ETAresult_CHN.txt                        100%   43KB  43.5KB/s   00:00    
+sftp> put result_CHN.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscript.sg[Kh
+Uploading script.sh to /home/cs18c39/2402/s2/script.sh
+script.sh                               0%    0     0.0KB/s   --:-- ETAscript.sh                             100% 1543     1.5KB/s   00:00    
+sftp> cd ..
+sftp> ls
+s1  s2  
+sftp> r[Kput report.txt
+stat report.txt: No such file or directory
+sftp> quit
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402/s2s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402/s2$ sftp cs18c39@192.1168.0.30[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402/s2s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402/s2$ cd s2[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csftp cs18c39@192.1168.0.30[A]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402/s2s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402/s2$ cd s2[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K..
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ cd ..sftp cs18c39@192.168..0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c39@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302              1002              2402              backup            
+examples.desktop  
+sftp> cd 2402
+sftp> ls
+s1  s2  
+sftp> put report.txt
+Uploading report.txt to /home/cs18c39/2402/report.txt
+report.txt                              0%    0     0.0KB/s   --:-- ETAreport.txt                            100%  772     0.8KB/s   00:00    
+sftp> quit
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ exit
+exit
+There are stopped jobs.
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c39/cs232/2402s4c2@lab2-AcerPower-Series:~/ceccs18c39/cs232/2402$ exitsftp cs18c39@192.168..0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c39@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302              1002              2402              backup            
+examples.desktop  
+sftp> cd 20[K402
+sftp> ls
+report.txt  s1
