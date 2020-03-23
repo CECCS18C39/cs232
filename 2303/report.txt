@@ -1,0 +1,164 @@
+CEC CS 18 C39	
+Muhammad Jalal
+
+LAN: 172.20.10.10
+MAC: b8:03:05:d8:48:8e
+
+--------------------------------
+#1: Linux Installation(t6)
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+      Ubuntu 16.04 LTS
+
+
+      # To update grub configuration
+      update-grub 
+
+--------------------------------
+Output: or Input & Output 
+     
+
+     Ubuntu 16.04 LTS installed
+     
+
+-------------------
+Remarks if any:
+
+      images are placed in the folder
+      photos  1-4  shows various steps of installation
+      Screenshot 5.png shows update-grub in action 
+
+
+--------------------------------
+
+#2: Setting up ftp and http servers(t7)
+ ---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	#to install ftp server
+	sudo apt-get install vsftpd
+	
+	#to edit server configuration
+	sudo vim /etc/vsftpd.conf
+	
+	#to connect to ftp on local server
+	ftp localhost	
+	
+	#to install apache2
+	sudo apt-get install apache2
+	
+	#to edit HTML file
+	sudo vim /var/www/html/index.html
+
+--------------------------------
+Output: 
+	
+	# ftp server available at http://172.20.10.10/ 
+	
+		
+
+-------------------
+Remarks if any:
+
+            # Apache http server :screenshot of webpage attached.
+	    http.png
+
+--------------------------------
+
+#3: Perl (t8.2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# Program to add two numbers
+	/perl/add.pl
+
+	# Program to access an array
+	/perl/arrays.pl
+ 
+
+	# Hello world program
+	/perl/helloworld.pl	
+
+--------------------------------
+Output: 
+	
+	# Output of helloworld.pl
+
+	Hello world
+
+	# Output of add.pl
+
+	Enter two numbers: 
+        2
+	5
+	
+	The Sum is 7
+
+	# Output of arrays.pl	
+	
+	apple
+	kiwi
+	orange
+	grape
+
+-------------------
+Remarks if any:
+
+
+
+--------------------------------
+
+#4: Kernel Compilation (t8.4)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	#to Download the latest stable kernel 
+	wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.xz
+	
+	#to Extract the source code
+	unxz -v linux-5.5.9.tar.xz
+	
+	#to Download the PGP Signature for the kernel (source: kernel.org)
+	wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.sign
+	
+	#to Verify the kernel tartball with GnuPG
+	gpg --verify linux-5.5.9.tar.sign
+	
+	#to Extract the tartball
+	tar xvf linux-5.5.9.tar
+	
+        #to change the directory
+	cd linux-5.5.9
+	
+	#to  create the configuration file (copied the existing config for convinience) 
+	cp -v /boot/config-$(uname -r) .config
+	
+	#to Install Development tools required to compile the kernel
+	sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+	
+	#to Compile the Kernel 
+	make -j $(nproc)
+	
+	
+--------------------------------
+Output: 
+
+        Compiled Kernel at /linux-5.5.9
+
+-------------------
+Remarks if any:
+	
+Screenshot of the compiled files is attached 6.png
+-------------------------------------
