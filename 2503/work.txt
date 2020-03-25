@@ -1,0 +1,237 @@
+Script started on Wednesday 25 March 2020 04:26:09 PM IST
+]0;jalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA: ~/ceccs18c39/cs232/2503[01;32mjalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA[00m:[01;34m~/ceccs18c39/cs232/2503[00m$  sudo apt[Kt-get update
+[sudo] password for jalal: 
+0% [Working]0% [Working]0% [Connecting to archive.ubuntu.com]                                     0% [Waiting for headers]                        Hit:1 http://archive.ubuntu.com/ubuntu xenial InRelease
+                        0% [Working]0% [1 InRelease gpgv 247 kB] [Waiting for headers]                                                  Hit:2 http://archive.ubuntu.com/ubuntu xenial-updates InRelease
+                                                  0% [1 InRelease gpgv 247 kB]                            0% [Waiting for headers]0% [2 InRelease gpgv 109 kB] [Waiting for headers]                                                  0% [Waiting for headers]                        Hit:3 http://archive.ubuntu.com/ubuntu xenial-backports InRelease
+                        0% [Working]0% [3 InRelease gpgv 107 kB] [Waiting for headers]                                                  0% [Waiting for headers]                        Hit:4 http://archive.ubuntu.com/ubuntu xenial-security InRelease
+                        0% [Working]0% [4 InRelease gpgv 109 kB]                            20% [Working]             Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 3%Reading package lists... 3%Reading package lists... 7%Reading package lists... 7%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 27%Reading package lists... 31%Reading package lists... 31%Reading package lists... 54%Reading package lists... 54%Reading package lists... 54%Reading package lists... 66%Reading package lists... 66%Reading package lists... 66%Reading package lists... 66%Reading package lists... 67%Reading package lists... 67%Reading package lists... 67%Reading package lists... 67%Reading package lists... 71%Reading package lists... 71%Reading package lists... 74%Reading package lists... 74%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 84%Reading package lists... 84%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+]0;jalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA: ~/ceccs18c39/cs232/2503[01;32mjalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA[00m:[01;34m~/ceccs18c39/cs232/2503[00m$  suo [K[Kdo apt-get upgrade
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+Calculating upgrade... 0%Calculating upgrade... 50%Calculating upgrade... Done
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;jalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA: ~/ceccs18c39/cs232/2503[01;32mjalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA[00m:[01;34m~/ceccs18c39/cs232/2503[00m$  sudo apt-f[Kget insrt[K[Ktall nmai[Kp
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  libblas-common libblas3 liblinear3 lua-lpeg ndiff python-bs4
+  python-chardet python-html5lib python-lxml python-pkg-resources
+  python-six
+Suggested packages:
+  liblinear-tools liblinear-dev python-genshi python-lxml-dbg
+  python-lxml-doc python-setuptools
+The following NEW packages will be installed:
+  libblas-common libblas3 liblinear3 lua-lpeg ndiff nmap python-bs4
+  python-chardet python-html5lib python-lxml python-pkg-resources
+  python-six
+0 upgraded, 12 newly installed, 0 to remove and 0 not upgraded.
+Need to get 6,059 kB of archives.
+After this operation, 27.2 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]0% [Connecting to archive.ubuntu.com (2001:67c:1360:8001::24)]                                                              Get:1 http://archive.ubuntu.com/ubuntu xenial/main amd64 libblas-common amd64 3.6.0-2ubuntu2 [5,342 B]
+                                                              0% [1 libblas-common 928 B/5,342 B 17%]                                       2% [Working]            Get:2 http://archive.ubuntu.com/ubuntu xenial/main amd64 libblas3 amd64 3.6.0-2ubuntu2 [147 kB]
+2% [2 libblas3 925 B/147 kB 1%]2% [2 libblas3 8,173 B/147 kB 6%]2% [2 libblas3 8,173 B/147 kB 6%]2% [2 libblas3 14.2 kB/147 kB 10%]2% [2 libblas3 22.7 kB/147 kB 15%]2% [2 libblas3 33.5 kB/147 kB 23%]2% [2 libblas3 33.5 kB/147 kB 23%]2% [2 libblas3 45.6 kB/147 kB 31%]3% [2 libblas3 64.9 kB/147 kB 44%]3% [2 libblas3 64.9 kB/147 kB 44%]3% [2 libblas3 80.7 kB/147 kB 55%]                  13.5 kB/s 7min 20s3% [2 libblas3 95.1 kB/147 kB 65%]                  13.5 kB/s 7min 19s3% [2 libblas3 105 kB/147 kB 71%]                   13.5 kB/s 7min 19s3% [2 libblas3 119 kB/147 kB 81%]                   13.5 kB/s 7min 18s3% [2 libblas3 129 kB/147 kB 88%]                   13.5 kB/s 7min 17s3% [2 libblas3 130 kB/147 kB 88%]                   13.5 kB/s 7min 17s4% [2 libblas3 147 kB/147 kB 100%]                  13.5 kB/s 7min 16s5% [Working]                                        13.5 kB/s 7min 16s                                                                      Get:3 http://archive.ubuntu.com/ubuntu xenial/main amd64 liblinear3 amd64 2.1.0+dfsg-1 [39.3 kB]
+5% [3 liblinear3 2,030 B/39.3 kB 5%]                13.5 kB/s 7min 15s5% [3 liblinear3 2,030 B/39.3 kB 5%]                13.5 kB/s 7min 15s5% [3 liblinear3 2,030 B/39.3 kB 5%]                13.5 kB/s 7min 15s5% [3 liblinear3 2,030 B/39.3 kB 5%]                13.5 kB/s 7min 15s6% [3 liblinear3 31.0 kB/39.3 kB 79%]               13.5 kB/s 7min 13s6% [3 liblinear3 33.4 kB/39.3 kB 85%]               13.5 kB/s 7min 13s6% [3 liblinear3 33.4 kB/39.3 kB 85%]               16.4 kB/s 5min 57s8% [Working]                                        16.4 kB/s 5min 56s                                                                      Get:4 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 lua-lpeg amd64 0.12.2-1ubuntu1 [28.6 kB]
+8% [4 lua-lpeg 8,192 B/28.6 kB 29%]                 16.4 kB/s 5min 56s8% [4 lua-lpeg 21.7 kB/28.6 kB 76%]                 16.4 kB/s 5min 55s8% [4 lua-lpeg 24.1 kB/28.6 kB 84%]                 16.4 kB/s 5min 55s8% [4 lua-lpeg 24.1 kB/28.6 kB 84%]                 16.4 kB/s 5min 55s10% [Working]                                       16.4 kB/s 5min 55s                                                                      Get:5 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-bs4 all 4.4.1-1 [64.2 kB]
+10% [5 python-bs4 92 B/64.2 kB 0%]                  16.4 kB/s 5min 55s10% [5 python-bs4 14.6 kB/64.2 kB 23%]              16.4 kB/s 5min 54s10% [5 python-bs4 21.8 kB/64.2 kB 34%]              16.4 kB/s 5min 53s10% [5 python-bs4 23.0 kB/64.2 kB 36%]              16.4 kB/s 5min 53s10% [5 python-bs4 41.2 kB/64.2 kB 64%]              16.4 kB/s 5min 52s10% [5 python-bs4 43.6 kB/64.2 kB 68%]              16.4 kB/s 5min 52s10% [5 python-bs4 55.7 kB/64.2 kB 87%]              16.4 kB/s 5min 51s10% [5 python-bs4 62.9 kB/64.2 kB 98%]              16.4 kB/s 5min 51s12% [Working]                                       16.4 kB/s 5min 51s                                                                      Get:6 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-pkg-resources all 20.7.0-1 [108 kB]
+12% [6 python-pkg-resources 881 B/108 kB 1%]        16.4 kB/s 5min 51s12% [6 python-pkg-resources 6,921 B/108 kB 6%]      17.2 kB/s 5min 35s12% [6 python-pkg-resources 6,921 B/108 kB 6%]      17.2 kB/s 5min 35s12% [6 python-pkg-resources 23.8 kB/108 kB 22%]     17.2 kB/s 5min 34s13% [6 python-pkg-resources 42.0 kB/108 kB 39%]     17.2 kB/s 5min 33s13% [6 python-pkg-resources 51.6 kB/108 kB 48%]     17.2 kB/s 5min 33s13% [6 python-pkg-resources 62.5 kB/108 kB 58%]     17.2 kB/s 5min 32s13% [6 python-pkg-resources 70.9 kB/108 kB 65%]     17.2 kB/s 5min 32s13% [6 python-pkg-resources 81.8 kB/108 kB 75%]     17.2 kB/s 5min 31s13% [6 python-pkg-resources 90.3 kB/108 kB 83%]     17.2 kB/s 5min 31s13% [6 python-pkg-resources 95.1 kB/108 kB 88%]     17.2 kB/s 5min 30s13% [6 python-pkg-resources 95.1 kB/108 kB 88%]     17.2 kB/s 5min 30s14% [6 python-pkg-resources 107 kB/108 kB 99%]      17.2 kB/s 5min 30s15% [Working]                                       17.2 kB/s 5min 30s                                                                      Get:7 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-chardet all 2.3.0-2 [96.3 kB]
+15% [7 python-chardet 9,347 B/96.3 kB 10%]          17.2 kB/s 5min 29s15% [7 python-chardet 22.6 kB/96.3 kB 23%]          20.6 kB/s 4min 33s16% [7 python-chardet 33.5 kB/96.3 kB 35%]          20.6 kB/s 4min 33s16% [7 python-chardet 46.8 kB/96.3 kB 49%]          20.6 kB/s 4min 32s16% [7 python-chardet 56.5 kB/96.3 kB 59%]          20.6 kB/s 4min 31s16% [7 python-chardet 58.9 kB/96.3 kB 61%]          20.6 kB/s 4min 31s16% [7 python-chardet 58.9 kB/96.3 kB 61%]          20.6 kB/s 4min 31s16% [7 python-chardet 58.9 kB/96.3 kB 61%]          20.6 kB/s 4min 31s16% [7 python-chardet 63.7 kB/96.3 kB 66%]          20.6 kB/s 4min 31s16% [7 python-chardet 63.7 kB/96.3 kB 66%]          20.6 kB/s 4min 31s16% [7 python-chardet 63.7 kB/96.3 kB 66%]          20.6 kB/s 4min 31s16% [7 python-chardet 67.3 kB/96.3 kB 70%]          20.6 kB/s 4min 31s16% [7 python-chardet 67.3 kB/96.3 kB 70%]          20.6 kB/s 4min 31s16% [7 python-chardet 67.3 kB/96.3 kB 70%]         7,437 B/s 12min 32s16% [7 python-chardet 80.6 kB/96.3 kB 84%]         7,437 B/s 12min 31s16% [7 python-chardet 80.6 kB/96.3 kB 84%]         7,437 B/s 12min 31s18% [Working]                                      7,437 B/s 12min 28s                                                                      Get:8 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-six all 1.10.0-3 [10.9 kB]
+18% [8 python-six 928 B/10.9 kB 9%]                7,437 B/s 12min 28s20% [Working]                                      7,437 B/s 12min 27s                                                                      Get:9 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-html5lib all 0.999-4 [83.1 kB]
+20% [9 python-html5lib 6,658 B/83.1 kB 8%]         7,437 B/s 12min 26s20% [9 python-html5lib 7,866 B/83.1 kB 9%]         7,437 B/s 12min 26s20% [9 python-html5lib 18.7 kB/83.1 kB 23%]        7,437 B/s 12min 24s20% [9 python-html5lib 40.5 kB/83.1 kB 49%]        7,437 B/s 12min 21s20% [9 python-html5lib 40.5 kB/83.1 kB 49%]        7,437 B/s 12min 21s21% [9 python-html5lib 45.3 kB/83.1 kB 55%]        7,437 B/s 12min 21s21% [9 python-html5lib 45.3 kB/83.1 kB 55%]        7,437 B/s 12min 21s21% [9 python-html5lib 75.5 kB/83.1 kB 91%]        7,437 B/s 12min 17s21% [9 python-html5lib 75.5 kB/83.1 kB 91%]        7,437 B/s 12min 17s23% [Working]                                      7,437 B/s 12min 16s                                                                      Get:10 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 python-lxml amd64 3.5.0-1ubuntu0.1 [818 kB]
+23% [10 python-lxml 5,413 B/818 kB 1%]             7,437 B/s 12min 15s23% [10 python-lxml 5,413 B/818 kB 1%]              21.3 kB/s 4min 16s23% [10 python-lxml 18.7 kB/818 kB 2%]              21.3 kB/s 4min 16s23% [10 python-lxml 22.3 kB/818 kB 3%]              21.3 kB/s 4min 16s23% [10 python-lxml 22.3 kB/818 kB 3%]              21.3 kB/s 4min 16s23% [10 python-lxml 22.3 kB/818 kB 3%]              21.3 kB/s 4min 16s23% [10 python-lxml 22.3 kB/818 kB 3%]              21.3 kB/s 4min 16s23% [10 python-lxml 22.3 kB/818 kB 3%]              21.3 kB/s 4min 16s23% [10 python-lxml 22.3 kB/818 kB 3%]              21.3 kB/s 4min 16s23% [10 python-lxml 22.3 kB/818 kB 3%]              21.3 kB/s 4min 16s23% [10 python-lxml 22.3 kB/818 kB 3%]              21.3 kB/s 4min 16s23% [10 python-lxml 22.3 kB/818 kB 3%]              21.3 kB/s 4min 16s23% [10 python-lxml 42.9 kB/818 kB 5%]              21.3 kB/s 4min 15s23% [10 python-lxml 42.9 kB/818 kB 5%]             6,231 B/s 14min 31s23% [10 python-lxml 42.9 kB/818 kB 5%]             6,231 B/s 14min 31s23% [10 python-lxml 42.9 kB/818 kB 5%]             6,231 B/s 14min 31s23% [10 python-lxml 42.9 kB/818 kB 5%]             6,231 B/s 14min 31s23% [10 python-lxml 42.9 kB/818 kB 5%]             6,231 B/s 14min 31s23% [10 python-lxml 42.9 kB/818 kB 5%]             6,231 B/s 14min 31s23% [10 python-lxml 42.9 kB/818 kB 5%]             6,231 B/s 14min 31s23% [10 python-lxml 42.9 kB/818 kB 5%]             6,231 B/s 14min 31s23% [10 python-lxml 42.9 kB/818 kB 5%]             6,231 B/s 14min 31s23% [10 python-lxml 42.9 kB/818 kB 5%]             6,231 B/s 14min 31s23% [10 python-lxml 42.9 kB/818 kB 5%]             6,231 B/s 14min 31s23% [10 python-lxml 42.9 kB/818 kB 5%]             6,231 B/s 14min 31s                                                                      23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 42.9 kB/818 kB 5%]23% [10 python-lxml 45.3 kB/818 kB 6%]23% [10 python-lxml 58.6 kB/818 kB 7%]24% [10 python-lxml 73.1 kB/818 kB 9%]24% [10 python-lxml 86.3 kB/818 kB 11%]            7,236 B/s 12min 24s24% [10 python-lxml 104 kB/818 kB 13%]             7,236 B/s 12min 22s24% [10 python-lxml 130 kB/818 kB 16%]             7,236 B/s 12min 18s25% [10 python-lxml 165 kB/818 kB 20%]             7,236 B/s 12min 13s26% [10 python-lxml 214 kB/818 kB 26%]              7,236 B/s 12min 7s26% [10 python-lxml 270 kB/818 kB 33%]             7,236 B/s 11min 59s27% [10 python-lxml 330 kB/818 kB 40%]             7,236 B/s 11min 51s28% [10 python-lxml 402 kB/818 kB 49%]             7,236 B/s 11min 41s30% [10 python-lxml 515 kB/818 kB 63%]             7,236 B/s 11min 25s32% [10 python-lxml 681 kB/818 kB 83%]              7,236 B/s 11min 2s35% [Waiting for headers]                          7,236 B/s 10min 43s                                                                      Get:11 http://archive.ubuntu.com/ubuntu xenial/main amd64 ndiff all 7.01-2ubuntu2 [20.1 kB]
+35% [11 ndiff 1,604 B/20.1 kB 8%]                  7,236 B/s 10min 43s37% [Working]                                      7,236 B/s 10min 40s                                                                      Get:12 http://archive.ubuntu.com/ubuntu xenial/main amd64 nmap amd64 7.01-2ubuntu2 [4,638 kB]
+37% [12 nmap 1,717 B/4,638 kB 0%]                  7,236 B/s 10min 40s40% [12 nmap 211 kB/4,638 kB 5%]                   7,236 B/s 10min 11s43% [12 nmap 455 kB/4,638 kB 10%]                   7,236 B/s 9min 38s47% [12 nmap 756 kB/4,638 kB 16%]                         235 kB/s 16s51% [12 nmap 1,076 kB/4,638 kB 23%]                       235 kB/s 15s57% [12 nmap 1,477 kB/4,638 kB 32%]                       235 kB/s 13s63% [12 nmap 1,932 kB/4,638 kB 42%]                       235 kB/s 11s70% [12 nmap 2,460 kB/4,638 kB 53%]                        235 kB/s 9s77% [12 nmap 3,041 kB/4,638 kB 66%]                        235 kB/s 6s86% [12 nmap 3,690 kB/4,638 kB 80%]                        235 kB/s 4s94% [12 nmap 4,325 kB/4,638 kB 93%]                        235 kB/s 1s100% [Working]                                             235 kB/s 0s                                                                      Fetched 6,059 kB in 1min 46s (56.7 kB/s)
+Selecting previously unselected package libblas-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 215539 files and directories currently installed.)
+Preparing to unpack .../libblas-common_3.6.0-2ubuntu2_amd64.deb ...
+Unpacking libblas-common (3.6.0-2ubuntu2) ...
+Selecting previously unselected package libblas3.
+Preparing to unpack .../libblas3_3.6.0-2ubuntu2_amd64.deb ...
+Unpacking libblas3 (3.6.0-2ubuntu2) ...
+Selecting previously unselected package liblinear3:amd64.
+Preparing to unpack .../liblinear3_2.1.0+dfsg-1_amd64.deb ...
+Unpacking liblinear3:amd64 (2.1.0+dfsg-1) ...
+Selecting previously unselected package lua-lpeg:amd64.
+Preparing to unpack .../lua-lpeg_0.12.2-1ubuntu1_amd64.deb ...
+Unpacking lua-lpeg:amd64 (0.12.2-1ubuntu1) ...
+Selecting previously unselected package python-bs4.
+Preparing to unpack .../python-bs4_4.4.1-1_all.deb ...
+Unpacking python-bs4 (4.4.1-1) ...
+Selecting previously unselected package python-pkg-resources.
+Preparing to unpack .../python-pkg-resources_20.7.0-1_all.deb ...
+Unpacking python-pkg-resources (20.7.0-1) ...
+Selecting previously unselected package python-chardet.
+Preparing to unpack .../python-chardet_2.3.0-2_all.deb ...
+Unpacking python-chardet (2.3.0-2) ...
+Selecting previously unselected package python-six.
+Preparing to unpack .../python-six_1.10.0-3_all.deb ...
+Unpacking python-six (1.10.0-3) ...
+Selecting previously unselected package python-html5lib.
+Preparing to unpack .../python-html5lib_0.999-4_all.deb ...
+Unpacking python-html5lib (0.999-4) ...
+Selecting previously unselected package python-lxml.
+Preparing to unpack .../python-lxml_3.5.0-1ubuntu0.1_amd64.deb ...
+Unpacking python-lxml (3.5.0-1ubuntu0.1) ...
+Selecting previously unselected package ndiff.
+Preparing to unpack .../ndiff_7.01-2ubuntu2_all.deb ...
+Unpacking ndiff (7.01-2ubuntu2) ...
+Selecting previously unselected package nmap.
+Preparing to unpack .../nmap_7.01-2ubuntu2_amd64.deb ...
+Unpacking nmap (7.01-2ubuntu2) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up libblas-common (3.6.0-2ubuntu2) ...
+Setting up libblas3 (3.6.0-2ubuntu2) ...
+update-alternatives: using /usr/lib/libblas/libblas.so.3 to provide /usr/lib/libblas.so.3 (libblas.so.3) in auto mode
+Setting up liblinear3:amd64 (2.1.0+dfsg-1) ...
+Setting up lua-lpeg:amd64 (0.12.2-1ubuntu1) ...
+Setting up python-bs4 (4.4.1-1) ...
+Setting up python-pkg-resources (20.7.0-1) ...
+Setting up python-chardet (2.3.0-2) ...
+Setting up python-six (1.10.0-3) ...
+Setting up python-html5lib (0.999-4) ...
+Setting up python-lxml (3.5.0-1ubuntu0.1) ...
+Setting up ndiff (7.01-2ubuntu2) ...
+Setting up nmap (7.01-2ubuntu2) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+]0;jalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA: ~/ceccs18c39/cs232/2503[01;32mjalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA[00m:[01;34m~/ceccs18c39/cs232/2503[00m$  sudo apt remove nmao[Kp
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libblas-common libblas3 liblinear3 lua-lpeg ndiff python-bs4
+  python-chardet python-html5lib python-lxml python-pkg-resources
+  python-six snapd-login-service
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  nmap
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 21.3 MB disk space will be freed.
+Do you want to continue? [Y/n] y
+
+7[0;41r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 216552 files and directories currently installed.)
+Removing nmap (7.01-2ubuntu2) ...
+7[42;0f[42m[30mProgress: [  0%][49m[39m [.................................................] 87[42;0f[42m[30mProgress: [ 25%][49m[39m [#############....................................] 87[42;0f[42m[30mProgress: [ 50%][49m[39m [#########################........................] 87[42;0f[42m[30mProgress: [ 75%][49m[39m [#####################################............] 8Processing triggers for man-db (2.7.5-1) ...
+
+7[0;42r8[1A[J]0;jalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA: ~/ceccs18c39/cs232/2503[01;32mjalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA[00m:[01;34m~/ceccs18c39/cs232/2503[00m$  sudo apt remove nmap[C[C[C[C[C[C[C[C[C[5@-get install[C[C[C[C[C[K[K[K[Ktasksel
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libblas-common libblas3 liblinear3 lua-lpeg ndiff python-bs4
+  python-chardet python-html5lib python-lxml python-pkg-resources
+  python-six snapd-login-service
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  tasksel-data
+The following NEW packages will be installed:
+  tasksel tasksel-data
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 40.6 kB of archives.
+After this operation, 369 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]0% [Connecting to archive.ubuntu.com (2001:67c:1360:8001::23)]                                                              Get:1 http://archive.ubuntu.com/ubuntu xenial/main amd64 tasksel-data all 3.34ubuntu3 [8,082 B]
+                                                              2% [1 tasksel-data 928 B/8,082 B 11%]                                     26% [Working]             Get:2 http://archive.ubuntu.com/ubuntu xenial/main amd64 tasksel all 3.34ubuntu3 [32.5 kB]
+30% [2 tasksel 2,135 B/32.5 kB 7%]                                  100% [Working]              Fetched 40.6 kB in 1s (31.6 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package tasksel-data.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 215827 files and directories currently installed.)
+Preparing to unpack .../tasksel-data_3.34ubuntu3_all.deb ...
+Unpacking tasksel-data (3.34ubuntu3) ...
+Selecting previously unselected package tasksel.
+Preparing to unpack .../tasksel_3.34ubuntu3_all.deb ...
+Unpacking tasksel (3.34ubuntu3) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up tasksel (3.34ubuntu3) ...
+Setting up tasksel-data (3.34ubuntu3) ...
+]0;jalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA: ~/ceccs18c39/cs232/2503[01;32mjalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA[00m:[01;34m~/ceccs18c39/cs232/2503[00m$  sudo apt-get install tasksel[C[C[C[C[C[C[C[C[C[8P remove nmap[K[K[K[Ktaskel[K[Ksel
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libblas-common libblas3 liblinear3 lua-lpeg ndiff python-bs4
+  python-chardet python-html5lib python-lxml python-pkg-resources
+  python-six snapd-login-service
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  tasksel tasksel-data
+0 upgraded, 0 newly installed, 2 to remove and 0 not upgraded.
+After this operation, 369 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+
+7[0;41r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 215865 files and directories currently installed.)
+Removing tasksel (3.34ubuntu3) ...
+7[42;0f[42m[30mProgress: [  0%][49m[39m [.................................................] 87[42;0f[42m[30mProgress: [ 14%][49m[39m [########.........................................] 87[42;0f[42m[30mProgress: [ 28%][49m[39m [###############..................................] 87[42;0f[42m[30mProgress: [ 42%][49m[39m [#####################............................] 8Removing tasksel-data (3.34ubuntu3) ...
+7[42;0f[42m[30mProgress: [ 57%][49m[39m [#############################....................] 87[42;0f[42m[30mProgress: [ 71%][49m[39m [###################################..............] 87[42;0f[42m[30mProgress: [ 85%][49m[39m [##########################################.......] 8Processing triggers for man-db (2.7.5-1) ...
+
+7[0;42r8[1A[J]0;jalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA: ~/ceccs18c39/cs232/2503[01;32mjalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA[00m:[01;34m~/ceccs18c39/cs232/2503[00m$  sudo apt remove tasksel[C[C[C[C[C[C[C[C[C[5@-get install[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Kapache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+apache2 is already the newest version (2.4.18-2ubuntu3.14).
+The following packages were automatically installed and are no longer required:
+  libblas-common libblas3 liblinear3 lua-lpeg ndiff python-bs4
+  python-chardet python-html5lib python-lxml python-pkg-resources
+  python-six snapd-login-service
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;jalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA: ~/ceccs18c39/cs232/2503[01;32mjalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA[00m:[01;34m~/ceccs18c39/cs232/2503[00m$  sudo dpkg-reconfigure apache2
+]0;jalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA: ~/ceccs18c39/cs232/2503[01;32mjalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA[00m:[01;34m~/ceccs18c39/cs232/2503[00m$  apt-get install -s apache2
+NOTE: This is only a simulation!
+      apt-get needs root privileges for real execution.
+      Keep also in mind that locking is deactivated,
+      so don't depend on the relevance to the real current situation!
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+apache2 is already the newest version (2.4.18-2ubuntu3.14).
+The following packages were automatically installed and are no longer required:
+  libblas-common libblas3 liblinear3 lua-lpeg ndiff python-bs4
+  python-chardet python-html5lib python-lxml python-pkg-resources
+  python-six snapd-login-service
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;jalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA: ~/ceccs18c39/cs232/2503[01;32mjalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA[00m:[01;34m~/ceccs18c39/cs232/2503[00m$  sudo apt-get autoremove
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following packages will be REMOVED:
+  libblas-common libblas3 liblinear3 lua-lpeg ndiff python-bs4
+  python-chardet python-html5lib python-lxml python-pkg-resources
+  python-six snapd-login-service
+0 upgraded, 0 newly installed, 12 to remove and 0 not upgraded.
+After this operation, 5,949 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 215826 files and directories currently installed.)
+Removing liblinear3:amd64 (2.1.0+dfsg-1) ...
+Removing libblas3 (3.6.0-2ubuntu2) ...
+Removing libblas-common (3.6.0-2ubuntu2) ...
+Removing lua-lpeg:amd64 (0.12.2-1ubuntu1) ...
+Removing ndiff (7.01-2ubuntu2) ...
+Removing python-bs4 (4.4.1-1) ...
+Removing python-chardet (2.3.0-2) ...
+Removing python-html5lib (0.999-4) ...
+Removing python-lxml (3.5.0-1ubuntu0.1) ...
+Removing python-pkg-resources (20.7.0-1) ...
+Removing python-six (1.10.0-3) ...
+Removing snapd-login-service (1.33-0ubuntu0.16.04.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for dbus (1.10.6-1ubuntu3.5) ...
+]0;jalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA: ~/ceccs18c39/cs232/2503[01;32mjalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA[00m:[01;34m~/ceccs18c39/cs232/2503[00m$  sudo apt list > package.txt
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+]0;jalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA: ~/ceccs18c39/cs232/2503[01;32mjalal@jalal-300E4A-300E5A-300E7A-3430EA-3530EA[00m:[01;34m~/ceccs18c39/cs232/2503[00m$  exit
+exit
+
+Script done on Wednesday 25 March 2020 06:23:17 PM IST
