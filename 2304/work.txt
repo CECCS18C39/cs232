@@ -1,0 +1,607 @@
+Script started on 2020-04-23 14:17:09+0530
+]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ sudo nana[Ko systr[Kemconfig.sh
+[sudo] password for jalal: 
+[?1049h[22;0;0t[1;38r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[36;30H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3              systemconfig.sh                         [1;69H(B[m
+[37d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify
+[38d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter
+[36d[3d[39;49m(B[m[?12l[?25h[?25l[1;61H(B[0;7mModified(B[m
+[3d[36m#!/bin/bash
+[4d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The currently logged user is        : $USER\n"
+[5d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The current login name is           : $LOGNAME\n"
+[6d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The current shell[19X[6;50H: $SHELL\n"
+[7d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The current home directory          : $HOME\n"
+[8d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The operating system type           :"
+[9d[39m(B[muname -o
+[10d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The current path setting             :$PATH\n"
+[11d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The current working directory        :"
+[12d[39m(B[mpwd
+[13d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The number of users currently logged :"
+[14d[39m(B[mwho
+[36d[K[14;4H[?12l[?25h[?25l
+[36d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)         [37;1H Y(B[m Yes[K
+[38d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[36;63H[?12l[?25h[?25l
+[37d(B[0;7m^G(B[m Get Help[18G(B[0;7mM-D(B[m DOS Format   (B[0;7mM-A(B[m Append[52G(B[0;7mM-B(B[m Backup File
+[38d(B[0;7m^C(B[m Cancel[17G (B[0;7mM-M(B[m Mac Format   (B[0;7mM-P(B[m Prepend[52G(B[0;7m^T(B[m To Files
+[36d(B[0;7mFile Name to Write: systemconfig.sh                          
+(B[m[36;36H[?12l[?25h[?25l
+[K[1;69H[1;61H(B[0;7m        (B[m[36;27H(B[0;7m[ Wrote 12 lines ](B[m
+[J[38;70H[?12l[?25h[38;1H[?1049l[23;0;0t
+[?1l>]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ bash system [Kconfig.sh
+ 
+ The currently logged user is        : jalal
+
+ 
+ The current login name is           : jalal
+
+ 
+ The current shell                   : /bin/bash
+
+ 
+ The current home directory          : /home/jalal
+
+ 
+ The operating system type           :
+GNU/Linux
+
+ The current path setting             :/home/jalal/bin:/home/jalal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+
+ The current working directory        :
+/home/jalal/ceccs18c39/cs232/2304
+
+ The number of users currently logged :
+jalal    :0           2020-04-23 18:02 (:0)
+]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00
+0m$ 
+[K[A]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[0
+00m$ 
+[K[A]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$  
+
+[K[A]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$
+$ 
+[K[A]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$  
+
+[K[A]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$  
+
+[K[A]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$
+$ 
+[K[A]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$  
+
+[K[A]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ 
+[K]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ bash systemconfig.sh[5@sudo nano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1.sh
+[?1049h[22;0;0t[1;38r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[36;30H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3              systemconfig1.sh                        [1;69H(B[m
+[37d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify
+[38d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter
+[36d[3d[39;49m(B[m[?12l[?25h[?25l[1;61H(B[0;7mModified(B[m
+[3d[36m#!/bin/bash
+[4d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The operating system version,release number  :\n"
+[5d[34mcat[39m(B[m /etc/os-release
+[6d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n OPerating system kernel version[14X[6;58H:\n"
+[7d[39m(B[muname [32m-r
+[8d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n All available shells[25X[8;58H:\n"
+[9d[34mcat[39m(B[m /etc/shells
+[10d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n CPU information[30X[10;58H:\n"
+[11d[34mcat[39m(B[m /proc/cpuinfo
+[12d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n Memory information[27X[12;58H:\n"
+[13d[34mcat[39m(B[m /proc/meminfo
+[14d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n Hard disk information[25X[14;59H:\n"
+[15d[39m(B[mdf -h
+[16d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n File system (Mounted)[24X[16;58H:\n"
+[17d[39m(B[mmount [32m|[39m(B[m column -t
+[19d[?12l[?25h[?25l[36d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)         [37;1H Y(B[m Yes[K
+[38d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[36;63H[?12l[?25h[?25l
+[37d(B[0;7m^G(B[m Get Help[18G(B[0;7mM-D(B[m DOS Format   (B[0;7mM-A(B[m Append[52G(B[0;7mM-B(B[m Backup File
+[38d(B[0;7m^C(B[m Cancel[17G (B[0;7mM-M(B[m Mac Format   (B[0;7mM-P(B[m Prepend[52G(B[0;7m^T(B[m To Files
+[36d(B[0;7mFile Name to Write: systemconfig1.sh                         
+(B[m[36;37H[?12l[?25h[?25l
+[K[1;69H[1;61H(B[0;7m        (B[m[36;27H(B[0;7m[ Wrote 17 lines ](B[m
+[J[38;70H[?12l[?25h[38;1H[?1049l[23;0;0t
+[?1l>]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ sudo nano systemconfig1.sh[6Pbash systemconfig.sh1.sh
+
+ The operating system version,release number  :
+
+NAME="Ubuntu"
+VERSION="18.04.4 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.4 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+ OPerating system kernel version              :
+
+4.15.0-91-generic
+
+ All available shells                         :
+
+# /etc/shells: valid login shells
+/bin/sh
+/bin/dash
+/bin/bash
+/bin/rbash
+
+ CPU information                              :
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1705.986
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4989.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 2001.524
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4989.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1779.930
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4989.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 1833.653
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4989.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+ Memory information                           :
+
+MemTotal:        3950048 kB
+MemFree:         1340160 kB
+MemAvailable:    1980868 kB
+Buffers:           80020 kB
+Cached:          1027328 kB
+SwapCached:            0 kB
+Active:          1682936 kB
+Inactive:         708992 kB
+Active(anon):    1286440 kB
+Inactive(anon):   286572 kB
+Active(file):     396496 kB
+Inactive(file):   422420 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:       3904508 kB
+SwapFree:        3904508 kB
+Dirty:               152 kB
+Writeback:             0 kB
+AnonPages:       1284616 kB
+Mapped:           496596 kB
+Shmem:            288436 kB
+Slab:             101848 kB
+SReclaimable:      54172 kB
+SUnreclaim:        47676 kB
+KernelStack:       14520 kB
+PageTables:        51956 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     5879532 kB
+Committed_AS:    6456396 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      182208 kB
+DirectMap2M:     3923968 kB
+
+ Hard disk information                         :
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.9G     0  1.9G   0% /dev
+tmpfs           386M  1.9M  384M   1% /run
+/dev/sda7        67G  8.7G   55G  14% /
+tmpfs           1.9G   37M  1.9G   2% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
+tmpfs           386M   16K  386M   1% /run/user/123
+tmpfs           386M   52K  386M   1% /run/user/1000
+
+ File system (Mounted)                        :
+
+sysfs       on  /sys                             type  sysfs            (rw,nosuid,nodev,noexec,relatime)
+proc        on  /proc                            type  proc             (rw,nosuid,nodev,noexec,relatime)
+udev        on  /dev                             type  devtmpfs         (rw,nosuid,relatime,size=1952624k,nr_inodes=488156,mode=755)
+devpts      on  /dev/pts                         type  devpts           (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs       on  /run                             type  tmpfs            (rw,nosuid,noexec,relatime,size=395008k,mode=755)
+/dev/sda7   on  /                                type  ext4             (rw,relatime,errors=remount-ro,data=ordered)
+securityfs  on  /sys/kernel/security             type  securityfs       (rw,nosuid,nodev,noexec,relatime)
+tmpfs       on  /dev/shm                         type  tmpfs            (rw,nosuid,nodev)
+tmpfs       on  /run/lock                        type  tmpfs            (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs       on  /sys/fs/cgroup                   type  tmpfs            (ro,nosuid,nodev,noexec,mode=755)
+cgroup      on  /sys/fs/cgroup/unified           type  cgroup2          (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup      on  /sys/fs/cgroup/systemd           type  cgroup           (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore      on  /sys/fs/pstore                   type  pstore           (rw,nosuid,nodev,noexec,relatime)
+cgroup      on  /sys/fs/cgroup/perf_event        type  cgroup           (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup      on  /sys/fs/cgroup/cpu,cpuacct       type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup      on  /sys/fs/cgroup/devices           type  cgroup           (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup      on  /sys/fs/cgroup/hugetlb           type  cgroup           (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup      on  /sys/fs/cgroup/blkio             type  cgroup           (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup      on  /sys/fs/cgroup/freezer           type  cgroup           (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup      on  /sys/fs/cgroup/net_cls,net_prio  type  cgroup           (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup      on  /sys/fs/cgroup/pids              type  cgroup           (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup      on  /sys/fs/cgroup/cpuset            type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup      on  /sys/fs/cgroup/rdma              type  cgroup           (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup      on  /sys/fs/cgroup/memory            type  cgroup           (rw,nosuid,nodev,noexec,relatime,memory)
+systemd-1   on  /proc/sys/fs/binfmt_misc         type  autofs           (rw,relatime,fd=31,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=14880)
+mqueue      on  /dev/mqueue                      type  mqueue           (rw,relatime)
+debugfs     on  /sys/kernel/debug                type  debugfs          (rw,relatime)
+hugetlbfs   on  /dev/hugepages                   type  hugetlbfs        (rw,relatime,pagesize=2M)
+configfs    on  /sys/kernel/config               type  configfs         (rw,relatime)
+fusectl     on  /sys/fs/fuse/connections         type  fusectl          (rw,relatime)
+tmpfs       on  /run/user/123                    type  tmpfs            (rw,nosuid,nodev,relatime,size=395004k,mode=700,uid=123,gid=130)
+tmpfs       on  /run/user/1000                   type  tmpfs            (rw,nosuid,nodev,relatime,size=395004k,mode=700,uid=1000,gid=1000)
+gvfsd-fuse  on  /run/user/1000/gvfs              type  fuse.gvfsd-fuse  (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ sudo nna[K[Kano cal.sh
+[?1049h[22;0;0t[1;38r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[36;30H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                   cal.sh                             [1;69H(B[m
+[37d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify
+[38d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter
+[36d[3d[39;49m(B[m[?12l[?25h[?25l[1;61H(B[0;7mModified(B[m
+[3d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Product = "[31m$sum(B[0m[32m;;
+[4d[39m(B[m4[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the dividend"
+[5d(B[0m[32mread[39m(B[m n1
+[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the divisor"
+[7d(B[0m[32mread[39m(B[m n2
+[8d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m / (B[0;1m[31m$n2(B[0m[32m`
+[9d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Quotient = "[31m$sum(B[0m[32m;;
+[10d[39m(B[m5[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the first number"
+[11d(B[0m[32mread[39m(B[m n1
+[12d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the second number"
+[13d(B[0m[32mread[39m(B[m n2
+[15d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m % (B[0;1m[31m$n2(B[0m[32m`
+[16d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Remainder = "[31m$sum(B[0m[32m;;
+[17d[39m(B[m*[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"*****  INVALID  *****"(B[0m[32m;;
+[18desac
+[19d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"*********************************"
+[20d[34mecho[39m(B[m (B[0;1m[33m"Do want to continue?(Y/N)"
+[21d(B[0m[32mread[39m(B[m ch
+[22d[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[31m$ch[39m(B[m [32m!=[39m(B[m (B[0;1m[33m"y"[39m(B[m [32m]
+[23dthen
+[24dexit
+[25dfi
+[26ddone
+[36d[39m(B[m[K[26;5H[?12l[?25h[?25l[22d[?12l[?25h[?25l[18d[?12l[?25h[?25l
+[14d[?12l[?25h[?25l[10;5H[?12l[?25h[?25l[6d[?12l[?25h[?25l[2;35r[2;1H[17T[1;38r[3;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the addend"
+[4d(B[0m[32mread[39m(B[m n2
+[5d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m + (B[0;1m[31m$n2(B[0m[32m`
+[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Sum = "[31m$sum(B[0m[32m;;
+[7d[39m(B[m2[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the subrahend"
+[8d(B[0m[32mread[39m(B[m n1
+[9d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the minuend"
+[10d(B[0m[32mread[39m(B[m n2
+[12d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m - (B[0;1m[31m$n2(B[0m[32m`
+[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Difference = "[31m$sum(B[0m[32m;;
+[14d[39m(B[m3[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the multiplicand"
+[15d(B[0m[32mread[39m(B[m n1
+[16d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the multiplier"
+[17d(B[0m[32mread[39m(B[m n2
+[19d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m [32m\[39m(B[m* (B[0;1m[31m$n2(B[0m[32m`[5G[39m(B[m[?12l[?25h[?25l[15d[?12l[?25h[?25l[19d[?12l[?25h[?25l[23d[?12l[?25h[?25l[19d[?12l[?25h[?25l[15d[?12l[?25h[?25l
+[11d[?12l[?25h[?25l[7;5H[?12l[?25h[?25l[3d[?12l[?25h[?25l[2;35r[2;1H[17T[1;38r[3;1H[36m#!/bin/bash
+[4d[39m(B[mclear
+[5d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"....MENU DRIVEN CALCULATOR...."
+[6d[39m(B[msum[32m=[39m(B[m0
+[7dch[32m=(B[0;1m[33m"y"
+[8d(B[0m[32mwhile[39m(B[m [32m[[39m(B[m (B[0;1m[31m$ch[39m(B[m [32m=[39m(B[m (B[0;1m[33m"y"[39m(B[m [32m]
+[9ddo
+[10d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"1. Addition"
+[11d[34mecho[39m(B[m (B[0;1m[33m"2. Subtraction"
+[12d[34mecho[39m(B[m (B[0;1m[33m"3. Multiplication"
+[13d[34mecho[39m(B[m (B[0;1m[33m"4. Division"
+[14d[34mecho[39m(B[m (B[0;1m[33m"5. Modulus"
+[15d[34mecho[39m(B[m (B[0;1m[33m"***** ENTER YOUR CHOICE *****"
+[16d(B[0m[32mread[39m(B[m choice
+[17d[32mcase[39m(B[m (B[0;1m[31m$choice[39m(B[m [32min
+[18d[39m(B[m1[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the  augend"
+[19d(B[0m[32mread[39m(B[m n1[16;5H[?12l[?25h[?25l[12d[?12l[?25h[?25l[9d[?12l[?25h[?25l[8;5H[?12l[?25h[?25l[4d[?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[7d[?12l[?25h[?25l[11d[?12l[?25h[?25l[15d[?12l[?25h[?25l[19d[?12l[?25h[?25l[23d[?12l[?25h[?25l[27d[?12l[?25h[?25l[31d[?12l[?25h[?25l
+[35d[?12l[?25h[?25l7[3;36r8[36d[17S[1;38r[19;2Hsum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m [32m\[39m(B[m* (B[0;1m[31m$n2(B[0m[32m`
+[20d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Product = "[31m$sum(B[0m[32m;;
+[21d[39m(B[m4[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the dividend"
+[22d(B[0m[32mread[39m(B[m n1
+[23d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the divisor"
+[24d(B[0m[32mread[39m(B[m n2
+[25d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m / (B[0;1m[31m$n2(B[0m[32m`
+[26d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Quotient = "[31m$sum(B[0m[32m;;
+[27d[39m(B[m5[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the first number"
+[28d(B[0m[32mread[39m(B[m n1
+[29d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the second number"
+[30d(B[0m[32mread[39m(B[m n2
+[32d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m % (B[0;1m[31m$n2(B[0m[32m`
+[33d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Remainder = "[31m$sum(B[0m[32m;;
+[34d[39m(B[m*[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"*****  INVALID  *****"(B[0m[32m;;
+[35desac[22d[39m(B[m[?12l[?25h[?25l[26d[?12l[?25h[?25l[30d[?12l[?25h[?25l[34d[?12l[?25h[?25l[3;36r[36;1H[17S[1;38r[19;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"*********************************"
+[20d[34mecho[39m(B[m (B[0;1m[33m"Do want to continue?(Y/N)"
+[21d(B[0m[32mread[39m(B[m ch
+[22d[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[31m$ch[39m(B[m [32m!=[39m(B[m (B[0;1m[33m"y"[39m(B[m [32m]
+[23dthen
+[24dexit
+[25dfi
+[26ddone[21d[39m(B[m[?12l[?25h[?25l[25d[?12l[?25h[?25l
+[27d[?12l[?25h[?25l[?12l[?25h[?25l[23;5H[?12l[?25h[?25l[19d[?12l[?25h[?25l[15d[?12l[?25h[?25l[11d[?12l[?25h[?25l[7d[?12l[?25h[?25l[5d[?12l[?25h[?25l[3d[?12l[?25h[?25l[2;35r[2;1H[17T[1;38r[3;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the addend"
+[4d(B[0m[32mread[39m(B[m n2
+[5d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m + (B[0;1m[31m$n2(B[0m[32m`
+[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Sum = "[31m$sum(B[0m[32m;;
+[7d[39m(B[m2[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the subrahend"
+[8d(B[0m[32mread[39m(B[m n1
+[9d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the minuend"
+[10d(B[0m[32mread[39m(B[m n2
+[12d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m - (B[0;1m[31m$n2(B[0m[32m`
+[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Difference = "[31m$sum(B[0m[32m;;
+[14d[39m(B[m3[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the multiplicand"
+[15d(B[0m[32mread[39m(B[m n1
+[16d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the multiplier"
+[17d(B[0m[32mread[39m(B[m n2
+[19d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m [32m\[39m(B[m* (B[0;1m[31m$n2(B[0m[32m`[16;5H[39m(B[m[?12l[?25h[?25l[12d[?12l[?25h[?25l[8d[?12l[?25h[?25l[4d[?12l[?25h[?25l[2;35r[2;1H[17T[1;38r[3;1H[36m#!/bin/bash
+[4d[39m(B[mclear
+[5d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"....MENU DRIVEN CALCULATOR...."
+[6d[39m(B[msum[32m=[39m(B[m0
+[7dch[32m=(B[0;1m[33m"y"
+[8d(B[0m[32mwhile[39m(B[m [32m[[39m(B[m (B[0;1m[31m$ch[39m(B[m [32m=[39m(B[m (B[0;1m[33m"y"[39m(B[m [32m]
+[9ddo
+[10d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"1. Addition"
+[11d[34mecho[39m(B[m (B[0;1m[33m"2. Subtraction"
+[12d[34mecho[39m(B[m (B[0;1m[33m"3. Multiplication"
+[13d[34mecho[39m(B[m (B[0;1m[33m"4. Division"
+[14d[34mecho[39m(B[m (B[0;1m[33m"5. Modulus"
+[15d[34mecho[39m(B[m (B[0;1m[33m"***** ENTER YOUR CHOICE *****"
+[16d(B[0m[32mread[39m(B[m choice
+[17d[32mcase[39m(B[m (B[0;1m[31m$choice[39m(B[m [32min
+[18d[39m(B[m1[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the  augend"
+[19d(B[0m[32mread[39m(B[m n1[17;5H[?12l[?25h[?25l[13d[?12l[?25h[?25l[10d[?12l[?25h[?25l[A[?12l[?25h[?25l[5;5H[?12l[?25h[?25l[9d[?12l[?25h[?25l[13;5H[?12l[?25h[?25l[17d[?12l[?25h[?25l[21d[?12l[?25h[?25l[25d[?12l[?25h[?25l[29d[?12l[?25h[?25l[33d[?12l[?25h[?25l[3;36r[36;1H[17S[1;38r[19;2Hsum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m [32m\[39m(B[m* (B[0;1m[31m$n2(B[0m[32m`
+[20d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Product = "[31m$sum(B[0m[32m;;
+[21d[39m(B[m4[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the dividend"
+[22d(B[0m[32mread[39m(B[m n1
+[23d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the divisor"
+[24d(B[0m[32mread[39m(B[m n2
+[25d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m / (B[0;1m[31m$n2(B[0m[32m`
+[26d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Quotient = "[31m$sum(B[0m[32m;;
+[27d[39m(B[m5[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the first number"
+[28d(B[0m[32mread[39m(B[m n1
+[29d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the second number"
+[30d(B[0m[32mread[39m(B[m n2
+[32d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m % (B[0;1m[31m$n2(B[0m[32m`
+[33d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Remainder = "[31m$sum(B[0m[32m;;
+[34d[39m(B[m*[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"*****  INVALID  *****"(B[0m[32m;;
+[35desac[20d[39m(B[m[?12l[?25h[?25l[24d[?12l[?25h[?25l[28d[?12l[?25h[?25l
+[31d[?12l[?25h[?25l[32;5H[?12l[?25h[?25l[3;36r[36;1H[17S[1;38r[19;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"*********************************"
+[20d[34mecho[39m(B[m (B[0;1m[33m"Do want to continue?(Y/N)"
+[21d(B[0m[32mread[39m(B[m ch
+[22d[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[31m$ch[39m(B[m [32m!=[39m(B[m (B[0;1m[33m"y"[39m(B[m [32m]
+[23dthen
+[24dexit
+[25dfi
+[26ddone[19d[39m(B[m[?12l[?25h[?25l[23d[?12l[?25h[?25l
+[27d[?12l[?25h[?25l[36d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)         [37;1H Y(B[m Yes[K
+[38d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[36;63H[?12l[?25h[?25l
+[37d(B[0;7m^G(B[m Get Help[18G(B[0;7mM-D(B[m DOS Format   (B[0;7mM-A(B[m Append[52G(B[0;7mM-B(B[m Backup File
+[38d(B[0;7m^C(B[m Cancel[17G (B[0;7mM-M(B[m Mac Format   (B[0;7mM-P(B[m Prepend[52G(B[0;7m^T(B[m To Files
+[36d(B[0;7mFile Name to Write: cal.sh                                   
+(B[m[36;27H[?12l[?25h[?25l
+[K[1;69H[1;61H(B[0;7m        (B[m[36;27H(B[0;7m[ Wrote 58 lines ](B[m
+[J[38;70H[?12l[?25h[38;1H[?1049l[23;0;0t
+[?1l>]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ bash cal.sh
+[3J[H[2J....MENU DRIVEN CALCULATOR....
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+1
+Enter the  augend
+5
+Enter the addend
+2
+Sum = 7
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+2
+Enter the subrahend
+9
+Enter the minuend
+5
+Difference = 4
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+3
+Enter the multiplicand
+2
+Enter the multiplier
+3
+Product = 6
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+4
+Enter the dividend
+8
+Enter the divisor
+2
+Quotient = 4
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+5
+Enter the first number
+8
+Enter the second number
+2
+Remainder = 0
+*********************************
+Do want to continue?(Y/N)
+n
+]0;jalal@user: ~/ceccs18c39/cs232/2304[01;32mjalal@user[00m:[01;34m~/ceccs18c39/cs232/2304[00m$ exit
+exit
+
+Script done on 2020-04-23 14:37:03+0530
